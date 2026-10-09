@@ -1,0 +1,46 @@
+name: Data correction
+description: Report an outdated, duplicate, incomplete, or inaccurate record.
+title: "[Correction]: "
+labels: ["data", "correction", "needs-review"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record ID and file
+      placeholder: ES-EXAMPLE-001 in dados/ES/example/frequencias.csv
+    validations:
+      required: true
+  - type: dropdown
+    id: issue
+    attributes:
+      label: Problem type
+      options:
+        - Incorrect technical value
+        - Outdated source or status
+        - Duplicate record
+        - Missing metadata
+        - Broken source link
+        - Geographic classification
+        - Licensing or attribution
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: State what should change and what should remain unknown.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional evidence
+      description: Include dates and independent verification method when applicable.

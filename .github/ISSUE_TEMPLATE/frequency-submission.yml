@@ -1,0 +1,77 @@
+name: Frequency submission
+description: Propose a new, sourced frequency record.
+title: "[Data]: "
+labels: ["data", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not submit credentials, private communications, or content that cannot be redistributed. A listing is not proof of operation.
+  - type: input
+    id: geography
+    attributes:
+      label: Geography
+      description: Country, state/province, municipality, and locality where applicable.
+      placeholder: Brazil / Espírito Santo / Vitória
+    validations:
+      required: true
+  - type: input
+    id: frequency
+    attributes:
+      label: RX and TX frequencies
+      description: MHz values and whether they are from the programmed radio's perspective.
+      placeholder: RX 000.0000 MHz; TX unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - Official documentation
+        - Operator report
+        - Community submission
+        - Secondary compilation
+        - Independent reception
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and context
+      description: Include publication/access dates, technical parameters, scope, expiry, and verification method.
+    validations:
+      required: true
+  - type: dropdown
+    id: permission
+    attributes:
+      label: Redistribution permission
+      options:
+        - Allowed
+        - Allowed with attribution
+        - Restricted
+        - Requires review
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License or rights reference
+      description: Provide the license name/URL or explain why review is required.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Contributor confirmation
+      options:
+        - label: I have not represented a source claim as independent verification.
+          required: true
+        - label: I have not included private information, credentials, or restricted database content.
+          required: true

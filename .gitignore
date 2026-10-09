@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated exports and local databases
+exports/**/*.csv
+exports/**/*.json
+exports/**/*.db
+exports/**/*.sqlite*
+!exports/**/.gitkeep
+
+# RadioReference credentials, responses, and caches must never be committed
+radiosync/integrations/radioreference/cache/
+radiosync/integrations/radioreference/private/
+*radioreference*credentials*
+*radioreference*response*
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
