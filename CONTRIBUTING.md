@@ -1,78 +1,88 @@
-# Contributing to RadioSync
+# Como contribuir com o RadioSync
 
-Thank you for helping build a reliable radio-frequency reference. Accuracy, provenance, lawful use, and licensing are more important than record count.
+> **RadioSync — Do sinal à informação. Do Brasil para o mundo.**  
+> Projeto criado e mantido por **[h4ckd4d](https://github.com/H4ckD4d)**.
 
-## Ways to contribute
+O **RadioSync — Brasil Radio Frequências** é uma iniciativa colaborativa para organizar referências de radiocomunicação de forma acessível e verificável. Você pode ajudar mesmo sem conhecer programação: uma fonte bem documentada ou uma correção fundamentada já faz diferença.
 
-- Add a documented frequency or geographic area.
-- Submit a dated, independently verified reception report.
-- Correct inaccurate, expired, or incomplete metadata.
-- Report a duplicate or an unavailable source.
-- Improve validation, importers, exporters, tests, or documentation.
+**Nosso princípio:** a origem e a qualidade da informação são mais importantes do que a quantidade de frequências cadastradas.
 
-Use the applicable Issue form for discussion or open a focused Pull Request.
+## Como posso ajudar?
 
-## Data contribution requirements
+- **Sou iniciante:** relate erros de digitação, links quebrados, dificuldades para entender a documentação ou termos que precisem de explicação.
+- **Sou radioamador ou operador autorizado:** envie referências públicas de estações, indicativos e parâmetros, com a fonte e o contexto.
+- **Sou pesquisador ou técnico:** revise metadados, métodos de verificação, classificações e documentação.
+- **Sou desenvolvedor:** contribua com importadores, validadores, testes, filtros, documentação e exportadores.
 
-Every submitted record must:
+Para começar, abra uma [Issue](https://github.com/H4ckD4d/brasil-radio-frequencias/issues) descrevendo sua sugestão ou envie um Pull Request com uma alteração bem delimitada.
 
-1. Follow [the canonical CSV format](docs/DATA_FORMAT.md).
-2. Cite an HTTPS source URL and provide meaningful attribution.
-3. Identify the source as official documentation, an operator report, a community submission, a secondary compilation, or independent reception.
-4. Record the source publication date when known.
-5. State whether redistribution is allowed, restricted, or still requires review.
-6. Keep operational status at `unknown` unless a source reports it or an independent observation verifies it.
-7. Avoid personal information that is not necessary and lawfully publishable.
+## Regras para propor um registro de frequência
 
-Do not copy content from subscription databases, closed groups, private messages, or restrictive websites merely because it can be viewed. Public accessibility is not the same as redistribution permission.
+Cada registro precisa obedecer ao [formato oficial do projeto](docs/DATA_FORMAT.md) e deve informar, conforme aplicável:
 
-## Independent reception reports
+1. **Localização:** país, UF, município e código IBGE correto. Não confunda distrito ou bairro com município.
+2. **Identificação:** serviço, estação, indicativo ou designação do canal, quando conhecidos.
+3. **Parâmetros técnicos:** RX/TX e demais campos comprovados pela fonte. Campos desconhecidos ficam vazios.
+4. **Procedência:** nome da fonte, URL HTTPS e atribuição a quem publicou a informação.
+5. **Datas:** publicação/consulta da fonte e data de observação independente, quando houver.
+6. **Situação de verificação:** diferença clara entre afirmação de uma fonte e recepção independente documentada.
+7. **Direitos:** `redistribution_permission` compatível com os termos do material consultado.
 
-Use `source_type=independent_reception` only for direct observation. Include:
+As categorias reconhecidas para `source_type` são: `official_documentation`, `operator_report`, `community_submission`, `secondary_compilation`, `independent_reception` e, quando necessário, `unknown`.
 
-- UTC or clearly identified local date.
-- General verification method and receiving equipment class.
-- Enough context to distinguish the station or channel.
-- No private message content or personal identifiers.
+**Atenção:** uma frequência presente em documento oficial não é necessariamente uma transmissão ativa. Dados publicados na internet não são automaticamente livres para redistribuição.
 
-An observed carrier alone does not establish station identity. If identity is uncertain, submit an Issue instead of asserting a match.
+## Se você verificou uma frequência pessoalmente
 
-## Workflow
+Use `source_type=independent_reception` **somente** quando houve observação direta e documentada. Inclua:
 
-1. Fork the repository and create a narrowly scoped branch.
-2. Edit or add CSV files without deleting unrelated records.
-3. Run:
+- Data em UTC ou com o fuso horário claramente identificado.
+- Método geral de verificação e tipo de equipamento receptor.
+- Contexto suficiente para diferenciar a estação ou o canal.
+- Grau de certeza e limitações da identificação.
 
-   ```bash
-   python scripts/validate_csv.py
+Uma portadora recebida, isoladamente, não confirma a identidade da estação. Se houver dúvida, abra uma Issue em vez de afirmar que a estação está identificada.
+
+**Nunca envie** áudio de conversas privadas, dados pessoais desnecessários, credenciais ou conteúdo protegido.
+
+## Como enviar uma alteração pelo GitHub
+
+1. Leia o [README](README.md) e o [formato dos dados](docs/DATA_FORMAT.md).
+2. Faça um *fork* do repositório e crie uma branch para sua correção.
+3. Edite apenas os arquivos relevantes, sem remover registros ou créditos de terceiros.
+4. Execute os testes, se sua contribuição envolver dados ou código Python:
+
+   ```powershell
+   python .\scripts\validate_csv.py
    python -m unittest discover -s tests -v
    ```
 
-4. Explain each source, transformation, and uncertainty in the Pull Request.
-5. Respond to review without rewriting other contributors' attribution.
+5. Abra um *Pull Request* explicando o que mudou, as fontes, as transformações e eventuais incertezas.
 
-Keep Pull Requests small. Data corrections and software changes should normally be separate.
+Prefira Pull Requests pequenos. Alterações de dados e alterações de software devem, em geral, ser separadas.
 
-## Workspace safety
+## Identidade dos registros
 
-Keep the active Git working tree on a local, non-synchronized filesystem when possible. Consumer sync tools such as Google Drive can upload `.git` internals while Git is updating them, create conflicted copies, or expose a partially synchronized repository to another computer. Use Git remotes for repository synchronization and use cloud storage only for closed archives or backups.
+O campo `record_id` é estável: não o altere apenas porque o nome de uma estação ou seu status mudou. Ao corrigir um registro, documente a evidência. Suspeitas de duplicidade precisam de revisão; não apague registros silenciosamente.
 
-If a synchronized workspace is unavoidable, never open the same checkout on two computers, allow synchronization to finish before and after Git operations, and check for conflict copies or `.git/*.lock` files before continuing. Do not delete a lock file until no Git process is running and the repository has been backed up. Run `git status` and `git fsck` after any sync conflict.
+## Segurança do ambiente de trabalho
 
-## Record identity and corrections
+Sempre que possível, mantenha a cópia de trabalho do Git em um disco local, **fora de pastas sincronizadas continuamente** por serviços como Google Drive. A sincronização dos arquivos internos de `.git` pode gerar conflitos ou cópias incompletas.
 
-`record_id` is stable. Do not change it solely because a label or status changes. Correct facts in place and explain the evidence in the Pull Request. If two records are duplicates, request a reviewed merge; do not silently delete either record.
+Se precisar trabalhar em pasta sincronizada, não abra a mesma cópia em dois computadores ao mesmo tempo. Espere a sincronização terminar antes e depois das operações Git e verifique `git status`. Em caso de conflito, faça backup e avalie `git fsck` antes de qualquer reparo.
 
-## Attribution and authorship
+## Autoria, fontes e licenças
 
-RadioSync was created by [h4ckd4d](https://github.com/H4ckD4d). Preserve that project attribution.
+O RadioSync foi criado por **[h4ckd4d](https://github.com/H4ckD4d)**. A contribuição de outras pessoas deve ser reconhecida pelo histórico Git, Pull Requests e pelo arquivo [AUTHORS.md](AUTHORS.md), quando apropriado.
 
-Contributors must not claim ownership of work they did not create. Credit source authors and organizations in the record, and credit contributors through commits, Pull Requests, and [AUTHORS.md](AUTHORS.md) when appropriate. Contributors retain authorship of their original contributions; inclusion does not assign ownership of unrelated code or data.
+A autoria das fontes também deve ser registrada em `attribution`. Ninguém adquire direitos sobre conteúdo de terceiros apenas por cadastrá-lo no RadioSync.
 
-## Licensing
+**Ainda não existe uma licença geral aprovada para o repositório.** Veja a [proposta de licenciamento](docs/LICENSING_PROPOSAL.md). Ao contribuir, você confirma que possui direito de enviar o conteúdo e informa quaisquer restrições aplicáveis. O mantenedor pode suspender a incorporação de material com situação de direitos indefinida.
 
-No repository-wide license has been adopted yet. See [the licensing proposal](docs/LICENSING_PROPOSAL.md). By submitting material, you confirm that you have the right to contribute it and will identify any applicable source terms. A maintainer may hold a contribution until its licensing is clear.
+## Respeito, responsabilidade e segurança
 
-## Conduct and security
+Siga o [Código de Conduta](CODE_OF_CONDUCT.md). Vulnerabilidades, dados privados e credenciais devem ser comunicados conforme a [Política de Segurança](SECURITY.md), nunca em Issues públicas.
 
-Follow the [Code of Conduct](CODE_OF_CONDUCT.md). Report security problems through [SECURITY.md](SECURITY.md), not a public data-correction Issue.
+Obrigado por contribuir para que o conhecimento em radiocomunicação seja mais organizado, acessível e responsável no Brasil.
+
+**RadioSync · Brasil Radio Frequências · h4ckd4d**
