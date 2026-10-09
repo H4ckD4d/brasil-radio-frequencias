@@ -1,0 +1,418 @@
+codigo_ibge,municipio,uf,pais
+2900207,Abaré,BA,BR
+2900108,Abaíra,BA,BR
+2900306,Acajutiba,BA,BR
+2900355,Adustina,BA,BR
+2900603,Aiquara,BA,BR
+2900702,Alagoinhas,BA,BR
+2900801,Alcobaça,BA,BR
+2900900,Almadina,BA,BR
+2901007,Amargosa,BA,BR
+2901106,Amélia Rodrigues,BA,BR
+2901155,América Dourada,BA,BR
+2901205,Anagé,BA,BR
+2901304,Andaraí,BA,BR
+2901353,Andorinha,BA,BR
+2901403,Angical,BA,BR
+2901502,Anguera,BA,BR
+2901601,Antas,BA,BR
+2901700,Antônio Cardoso,BA,BR
+2901809,Antônio Gonçalves,BA,BR
+2901908,Aporá,BA,BR
+2901957,Apuarema,BA,BR
+2902005,Aracatu,BA,BR
+2902104,Araci,BA,BR
+2902203,Aramari,BA,BR
+2902252,Arataca,BA,BR
+2902302,Aratuípe,BA,BR
+2902054,Araçás,BA,BR
+2902401,Aurelino Leal,BA,BR
+2902500,Baianópolis,BA,BR
+2902609,Baixa Grande,BA,BR
+2902658,Banzaê,BA,BR
+2902708,Barra,BA,BR
+2902807,Barra da Estiva,BA,BR
+2902906,Barra do Choça,BA,BR
+2903003,Barra do Mendes,BA,BR
+2903102,Barra do Rocha,BA,BR
+2903201,Barreiras,BA,BR
+2903235,Barro Alto,BA,BR
+2903300,Barro Preto,BA,BR
+2903276,Barrocas,BA,BR
+2903409,Belmonte,BA,BR
+2903508,Belo Campo,BA,BR
+2903607,Biritinga,BA,BR
+2903706,Boa Nova,BA,BR
+2903805,Boa Vista do Tupim,BA,BR
+2903904,Bom Jesus da Lapa,BA,BR
+2903953,Bom Jesus da Serra,BA,BR
+2904001,Boninal,BA,BR
+2904050,Bonito,BA,BR
+2904100,Boquira,BA,BR
+2904209,Botuporã,BA,BR
+2904407,Brejolândia,BA,BR
+2904308,Brejões,BA,BR
+2904506,Brotas de Macaúbas,BA,BR
+2904605,Brumado,BA,BR
+2904704,Buerarema,BA,BR
+2904753,Buritirama,BA,BR
+2904803,Caatiba,BA,BR
+2904852,Cabaceiras do Paraguaçu,BA,BR
+2904902,Cachoeira,BA,BR
+2905008,Caculé,BA,BR
+2905156,Caetanos,BA,BR
+2905206,Caetité,BA,BR
+2905305,Cafarnaum,BA,BR
+2905404,Cairu,BA,BR
+2905503,Caldeirão Grande,BA,BR
+2905602,Camacan,BA,BR
+2905800,Camamu,BA,BR
+2905701,Camaçari,BA,BR
+2905909,Campo Alegre de Lourdes,BA,BR
+2906006,Campo Formoso,BA,BR
+2906204,Canarana,BA,BR
+2906303,Canavieiras,BA,BR
+2906402,Candeal,BA,BR
+2906501,Candeias,BA,BR
+2906600,Candiba,BA,BR
+2906808,Cansanção,BA,BR
+2906824,Canudos,BA,BR
+2906105,Canápolis,BA,BR
+2906857,Capela do Alto Alegre,BA,BR
+2906873,Capim Grosso,BA,BR
+2906907,Caravelas,BA,BR
+2906899,Caraíbas,BA,BR
+2907004,Cardeal da Silva,BA,BR
+2907103,Carinhanha,BA,BR
+2907202,Casa Nova,BA,BR
+2907301,Castro Alves,BA,BR
+2907400,Catolândia,BA,BR
+2907509,Catu,BA,BR
+2907558,Caturama,BA,BR
+2905107,Caém,BA,BR
+2907608,Central,BA,BR
+2907707,Chorrochó,BA,BR
+2907905,Cipó,BA,BR
+2908002,Coaraci,BA,BR
+2908101,Cocos,BA,BR
+2908200,Conceição da Feira,BA,BR
+2908309,Conceição do Almeida,BA,BR
+2908408,Conceição do Coité,BA,BR
+2908507,Conceição do Jacuípe,BA,BR
+2908606,Conde,BA,BR
+2908705,Condeúba,BA,BR
+2908804,Contendas do Sincorá,BA,BR
+2908903,Coração de Maria,BA,BR
+2909000,Cordeiros,BA,BR
+2909109,Coribe,BA,BR
+2909208,Coronel João Sá,BA,BR
+2909307,Correntina,BA,BR
+2909406,Cotegipe,BA,BR
+2909505,Cravolândia,BA,BR
+2909703,Cristópolis,BA,BR
+2909604,Crisópolis,BA,BR
+2909802,Cruz das Almas,BA,BR
+2909901,Curaçá,BA,BR
+2906709,Cândido Sales,BA,BR
+2907806,Cícero Dantas,BA,BR
+2910057,Dias d'Ávila,BA,BR
+2910107,Dom Basílio,BA,BR
+2910206,Dom Macedo Costa,BA,BR
+2910008,Dário Meira,BA,BR
+2910305,Elísio Medrado,BA,BR
+2910404,Encruzilhada,BA,BR
+2910503,Entre Rios,BA,BR
+2910602,Esplanada,BA,BR
+2910701,Euclides da Cunha,BA,BR
+2910727,Eunápolis,BA,BR
+2910776,Feira da Mata,BA,BR
+2910800,Feira de Santana,BA,BR
+2910859,Filadélfia,BA,BR
+2910909,Firmino Alves,BA,BR
+2911006,Floresta Azul,BA,BR
+2911105,Formosa do Rio Preto,BA,BR
+2910750,Fátima,BA,BR
+2911204,Gandu,BA,BR
+2911253,Gavião,BA,BR
+2911303,Gentio do Ouro,BA,BR
+2911402,Glória,BA,BR
+2911501,Gongogi,BA,BR
+2911600,Governador Mangabeira,BA,BR
+2911659,Guajeru,BA,BR
+2911709,Guanambi,BA,BR
+2911808,Guaratinga,BA,BR
+2911857,Heliópolis,BA,BR
+2911907,Iaçu,BA,BR
+2912004,Ibiassucê,BA,BR
+2912103,Ibicaraí,BA,BR
+2912202,Ibicoara,BA,BR
+2912301,Ibicuí,BA,BR
+2912400,Ibipeba,BA,BR
+2912509,Ibipitanga,BA,BR
+2912608,Ibiquera,BA,BR
+2912707,Ibirapitanga,BA,BR
+2912806,Ibirapuã,BA,BR
+2912905,Ibirataia,BA,BR
+2913002,Ibitiara,BA,BR
+2913101,Ibititá,BA,BR
+2913200,Ibotirama,BA,BR
+2913309,Ichu,BA,BR
+2913408,Igaporã,BA,BR
+2913457,Igrapiúna,BA,BR
+2913507,Iguaí,BA,BR
+2913606,Ilhéus,BA,BR
+2913705,Inhambupe,BA,BR
+2913804,Ipecaetá,BA,BR
+2913903,Ipiaú,BA,BR
+2914000,Ipirá,BA,BR
+2914109,Ipupiara,BA,BR
+2914208,Irajuba,BA,BR
+2914307,Iramaia,BA,BR
+2914406,Iraquara,BA,BR
+2914505,Irará,BA,BR
+2914604,Irecê,BA,BR
+2914653,Itabela,BA,BR
+2914703,Itaberaba,BA,BR
+2914802,Itabuna,BA,BR
+2914901,Itacaré,BA,BR
+2915007,Itaeté,BA,BR
+2915106,Itagi,BA,BR
+2915205,Itagibá,BA,BR
+2915304,Itagimirim,BA,BR
+2915353,Itaguaçu da Bahia,BA,BR
+2915403,Itaju do Colônia,BA,BR
+2915502,Itajuípe,BA,BR
+2915601,Itamaraju,BA,BR
+2915700,Itamari,BA,BR
+2915809,Itambé,BA,BR
+2915908,Itanagra,BA,BR
+2916005,Itanhém,BA,BR
+2916104,Itaparica,BA,BR
+2916302,Itapebi,BA,BR
+2916401,Itapetinga,BA,BR
+2916500,Itapicuru,BA,BR
+2916609,Itapitanga,BA,BR
+2916203,Itapé,BA,BR
+2916708,Itaquara,BA,BR
+2916807,Itarantim,BA,BR
+2916856,Itatim,BA,BR
+2916906,Itiruçu,BA,BR
+2917003,Itiúba,BA,BR
+2917102,Itororó,BA,BR
+2917201,Ituaçu,BA,BR
+2917300,Ituberá,BA,BR
+2917334,Iuiu,BA,BR
+2917359,Jaborandi,BA,BR
+2917409,Jacaraci,BA,BR
+2917508,Jacobina,BA,BR
+2917607,Jaguaquara,BA,BR
+2917706,Jaguarari,BA,BR
+2917805,Jaguaripe,BA,BR
+2917904,Jandaíra,BA,BR
+2918001,Jequié,BA,BR
+2918100,Jeremoabo,BA,BR
+2918209,Jiquiriçá,BA,BR
+2918308,Jitaúna,BA,BR
+2918357,João Dourado,BA,BR
+2918407,Juazeiro,BA,BR
+2918456,Jucuruçu,BA,BR
+2918506,Jussara,BA,BR
+2918555,Jussari,BA,BR
+2918605,Jussiape,BA,BR
+2918704,Lafaiete Coutinho,BA,BR
+2918753,Lagoa Real,BA,BR
+2918803,Laje,BA,BR
+2919009,Lajedinho,BA,BR
+2919058,Lajedo do Tabocal,BA,BR
+2918902,Lajedão,BA,BR
+2919108,Lamarão,BA,BR
+2919157,Lapão,BA,BR
+2919207,Lauro de Freitas,BA,BR
+2919306,Lençóis,BA,BR
+2919405,Licínio de Almeida,BA,BR
+2919504,Livramento de Nossa Senhora,BA,BR
+2919553,Luís Eduardo Magalhães,BA,BR
+2919603,Macajuba,BA,BR
+2919702,Macarani,BA,BR
+2919801,Macaúbas,BA,BR
+2919900,Macururé,BA,BR
+2919926,Madre de Deus,BA,BR
+2919959,Maetinga,BA,BR
+2920007,Maiquinique,BA,BR
+2920106,Mairi,BA,BR
+2920205,Malhada,BA,BR
+2920304,Malhada de Pedras,BA,BR
+2920403,Manoel Vitorino,BA,BR
+2920452,Mansidão,BA,BR
+2920502,Maracás,BA,BR
+2920601,Maragogipe,BA,BR
+2920700,Maraú,BA,BR
+2920809,Marcionílio Souza,BA,BR
+2920908,Mascote,BA,BR
+2921005,Mata de São João,BA,BR
+2921054,Matina,BA,BR
+2921104,Medeiros Neto,BA,BR
+2921203,Miguel Calmon,BA,BR
+2921302,Milagres,BA,BR
+2921401,Mirangaba,BA,BR
+2921450,Mirante,BA,BR
+2921500,Monte Santo,BA,BR
+2921609,Morpará,BA,BR
+2921708,Morro do Chapéu,BA,BR
+2921807,Mortugaba,BA,BR
+2921906,Mucugê,BA,BR
+2922003,Mucuri,BA,BR
+2922052,Mulungu do Morro,BA,BR
+2922102,Mundo Novo,BA,BR
+2922201,Muniz Ferreira,BA,BR
+2922250,Muquém do São Francisco,BA,BR
+2922300,Muritiba,BA,BR
+2922409,Mutuípe,BA,BR
+2922508,Nazaré,BA,BR
+2922607,Nilo Peçanha,BA,BR
+2922656,Nordestina,BA,BR
+2922706,Nova Canaã,BA,BR
+2922730,Nova Fátima,BA,BR
+2922755,Nova Ibiá,BA,BR
+2922805,Nova Itarana,BA,BR
+2922854,Nova Redenção,BA,BR
+2922904,Nova Soure,BA,BR
+2923001,Nova Viçosa,BA,BR
+2923035,Novo Horizonte,BA,BR
+2923050,Novo Triunfo,BA,BR
+2923100,Olindina,BA,BR
+2923209,Oliveira dos Brejinhos,BA,BR
+2923308,Ouriçangas,BA,BR
+2923357,Ourolândia,BA,BR
+2923407,Palmas de Monte Alto,BA,BR
+2923506,Palmeiras,BA,BR
+2923605,Paramirim,BA,BR
+2923704,Paratinga,BA,BR
+2923803,Paripiranga,BA,BR
+2923902,Pau Brasil,BA,BR
+2924009,Paulo Afonso,BA,BR
+2924207,Pedro Alexandre,BA,BR
+2924108,Pedrão,BA,BR
+2924306,Piatã,BA,BR
+2924405,Pilão Arcado,BA,BR
+2924504,Pindaí,BA,BR
+2924603,Pindobaçu,BA,BR
+2924652,Pintadas,BA,BR
+2924678,Piraí do Norte,BA,BR
+2924702,Piripá,BA,BR
+2924801,Piritiba,BA,BR
+2924900,Planaltino,BA,BR
+2925006,Planalto,BA,BR
+2925204,Pojuca,BA,BR
+2925253,Ponto Novo,BA,BR
+2925303,Porto Seguro,BA,BR
+2925402,Potiraguá,BA,BR
+2925105,Poções,BA,BR
+2925501,Prado,BA,BR
+2925600,Presidente Dutra,BA,BR
+2925709,Presidente Jânio Quadros,BA,BR
+2925758,Presidente Tancredo Neves,BA,BR
+2924058,Pé de Serra,BA,BR
+2925808,Queimadas,BA,BR
+2925907,Quijingue,BA,BR
+2925931,Quixabeira,BA,BR
+2925956,Rafael Jambeiro,BA,BR
+2926004,Remanso,BA,BR
+2926103,Retirolândia,BA,BR
+2926400,Riacho de Santana,BA,BR
+2926202,Riachão das Neves,BA,BR
+2926301,Riachão do Jacuípe,BA,BR
+2926509,Ribeira do Amparo,BA,BR
+2926608,Ribeira do Pombal,BA,BR
+2926657,Ribeirão do Largo,BA,BR
+2927002,Rio Real,BA,BR
+2926707,Rio de Contas,BA,BR
+2926806,Rio do Antônio,BA,BR
+2926905,Rio do Pires,BA,BR
+2927101,Rodelas,BA,BR
+2927200,Ruy Barbosa,BA,BR
+2927309,Salinas da Margarida,BA,BR
+2927408,Salvador,BA,BR
+2927606,Santa Brígida,BA,BR
+2927507,Santa Bárbara,BA,BR
+2927705,Santa Cruz Cabrália,BA,BR
+2927804,Santa Cruz da Vitória,BA,BR
+2927903,Santa Inês,BA,BR
+2928059,Santa Luzia,BA,BR
+2928109,Santa Maria da Vitória,BA,BR
+2928406,Santa Rita de Cássia,BA,BR
+2928505,Santa Terezinha,BA,BR
+2928000,Santaluz,BA,BR
+2928208,Santana,BA,BR
+2928307,Santanópolis,BA,BR
+2928604,Santo Amaro,BA,BR
+2928703,Santo Antônio de Jesus,BA,BR
+2928802,Santo Estêvão,BA,BR
+2929602,Sapeaçu,BA,BR
+2929750,Saubara,BA,BR
+2929800,Saúde,BA,BR
+2929909,Seabra,BA,BR
+2930006,Sebastião Laranjeiras,BA,BR
+2930105,Senhor do Bonfim,BA,BR
+2930204,Sento Sé,BA,BR
+2930303,Serra Dourada,BA,BR
+2930402,Serra Preta,BA,BR
+2930154,Serra do Ramalho,BA,BR
+2930501,Serrinha,BA,BR
+2930600,Serrolândia,BA,BR
+2930709,Simões Filho,BA,BR
+2930774,Sobradinho,BA,BR
+2930808,Souto Soares,BA,BR
+2929701,Sátiro Dias,BA,BR
+2928901,São Desidério,BA,BR
+2928950,São Domingos,BA,BR
+2929107,São Felipe,BA,BR
+2929206,São Francisco do Conde,BA,BR
+2929008,São Félix,BA,BR
+2929057,São Félix do Coribe,BA,BR
+2929255,São Gabriel,BA,BR
+2929305,São Gonçalo dos Campos,BA,BR
+2929354,São José da Vitória,BA,BR
+2929370,São José do Jacuípe,BA,BR
+2929404,São Miguel das Matas,BA,BR
+2929503,São Sebastião do Passé,BA,BR
+2930758,Sítio do Mato,BA,BR
+2930766,Sítio do Quinto,BA,BR
+2930907,Tabocas do Brejo Velho,BA,BR
+2931004,Tanhaçu,BA,BR
+2931053,Tanque Novo,BA,BR
+2931103,Tanquinho,BA,BR
+2931202,Taperoá,BA,BR
+2931301,Tapiramutá,BA,BR
+2931350,Teixeira de Freitas,BA,BR
+2931400,Teodoro Sampaio,BA,BR
+2931509,Teofilândia,BA,BR
+2931608,Teolândia,BA,BR
+2931707,Terra Nova,BA,BR
+2931806,Tremedal,BA,BR
+2931905,Tucano,BA,BR
+2932002,Uauá,BA,BR
+2932200,Ubaitaba,BA,BR
+2932309,Ubatã,BA,BR
+2932101,Ubaíra,BA,BR
+2932408,Uibaí,BA,BR
+2932457,Umburanas,BA,BR
+2932507,Una,BA,BR
+2932606,Urandi,BA,BR
+2932705,Uruçuca,BA,BR
+2932804,Utinga,BA,BR
+2933000,Valente,BA,BR
+2932903,Valença,BA,BR
+2933174,Varzedo,BA,BR
+2933208,Vera Cruz,BA,BR
+2933257,Vereda,BA,BR
+2933307,Vitória da Conquista,BA,BR
+2933158,Várzea Nova,BA,BR
+2933059,Várzea da Roça,BA,BR
+2933109,Várzea do Poço,BA,BR
+2933406,Wagner,BA,BR
+2933455,Wanderley,BA,BR
+2933505,Wenceslau Guimarães,BA,BR
+2933604,Xique-Xique,BA,BR
+2900405,Água Fria,BA,BR
+2900504,Érico Cardoso,BA,BR

@@ -1,0 +1,247 @@
+codigo_ibge,municipio,uf,pais
+5200050,Abadia de Goiás,GO,BR
+5200100,Abadiânia,GO,BR
+5200134,Acreúna,GO,BR
+5200159,Adelândia,GO,BR
+5200308,Alexânia,GO,BR
+5200506,Aloândia,GO,BR
+5200555,Alto Horizonte,GO,BR
+5200605,Alto Paraíso de Goiás,GO,BR
+5200803,Alvorada do Norte,GO,BR
+5200829,Amaralina,GO,BR
+5200852,Americano do Brasil,GO,BR
+5200902,Amorinópolis,GO,BR
+5201207,Anhanguera,GO,BR
+5201306,Anicuns,GO,BR
+5201108,Anápolis,GO,BR
+5201405,Aparecida de Goiânia,GO,BR
+5201454,Aparecida do Rio Doce,GO,BR
+5201504,Aporé,GO,BR
+5201702,Aragarças,GO,BR
+5201801,Aragoiânia,GO,BR
+5202155,Araguapaz,GO,BR
+5201603,Araçu,GO,BR
+5202353,Arenópolis,GO,BR
+5202502,Aruanã,GO,BR
+5202601,Aurilândia,GO,BR
+5202809,Avelinópolis,GO,BR
+5203104,Baliza,GO,BR
+5203203,Barro Alto,GO,BR
+5203302,Bela Vista de Goiás,GO,BR
+5203401,Bom Jardim de Goiás,GO,BR
+5203500,Bom Jesus de Goiás,GO,BR
+5203559,Bonfinópolis,GO,BR
+5203575,Bonópolis,GO,BR
+5203609,Brazabrantes,GO,BR
+5203807,Britânia,GO,BR
+5203906,Buriti Alegre,GO,BR
+5203939,Buriti de Goiás,GO,BR
+5203962,Buritinópolis,GO,BR
+5204003,Cabeceiras,GO,BR
+5204102,Cachoeira Alta,GO,BR
+5204250,Cachoeira Dourada,GO,BR
+5204201,Cachoeira de Goiás,GO,BR
+5204409,Caiapônia,GO,BR
+5204508,Caldas Novas,GO,BR
+5204557,Caldazinha,GO,BR
+5204607,Campestre de Goiás,GO,BR
+5204656,Campinaçu,GO,BR
+5204706,Campinorte,GO,BR
+5204805,Campo Alegre de Goiás,GO,BR
+5204854,Campo Limpo de Goiás,GO,BR
+5204904,Campos Belos,GO,BR
+5204953,Campos Verdes,GO,BR
+5205000,Carmo do Rio Verde,GO,BR
+5205059,Castelândia,GO,BR
+5205109,Catalão,GO,BR
+5205208,Caturaí,GO,BR
+5205307,Cavalcante,GO,BR
+5204300,Caçu,GO,BR
+5205406,Ceres,GO,BR
+5205455,Cezarina,GO,BR
+5205471,Chapadão do Céu,GO,BR
+5205497,Cidade Ocidental,GO,BR
+5205513,Cocalzinho de Goiás,GO,BR
+5205521,Colinas do Sul,GO,BR
+5205901,Corumbaíba,GO,BR
+5205802,Corumbá de Goiás,GO,BR
+5206206,Cristalina,GO,BR
+5206305,Cristianópolis,GO,BR
+5206404,Crixás,GO,BR
+5206503,Cromínia,GO,BR
+5206602,Cumari,GO,BR
+5205703,Córrego do Ouro,GO,BR
+5206701,Damianópolis,GO,BR
+5206800,Damolândia,GO,BR
+5206909,Davinópolis,GO,BR
+5207105,Diorama,GO,BR
+5208301,Divinópolis de Goiás,GO,BR
+5207253,Doverlândia,GO,BR
+5207352,Edealina,GO,BR
+5207402,Edéia,GO,BR
+5207501,Estrela do Norte,GO,BR
+5207535,Faina,GO,BR
+5207600,Fazenda Nova,GO,BR
+5207808,Firminópolis,GO,BR
+5207907,Flores de Goiás,GO,BR
+5208004,Formosa,GO,BR
+5208103,Formoso,GO,BR
+5208152,Gameleira de Goiás,GO,BR
+5208509,Goiandira,GO,BR
+5208806,Goianira,GO,BR
+5208400,Goianápolis,GO,BR
+5208608,Goianésia,GO,BR
+5209101,Goiatuba,GO,BR
+5208905,Goiás,GO,BR
+5208707,Goiânia,GO,BR
+5209150,Gouvelândia,GO,BR
+5209200,Guapó,GO,BR
+5209408,Guarani de Goiás,GO,BR
+5209291,Guaraíta,GO,BR
+5209457,Guarinos,GO,BR
+5209606,Heitoraí,GO,BR
+5209804,Hidrolina,GO,BR
+5209705,Hidrolândia,GO,BR
+5209903,Iaciara,GO,BR
+5209937,Inaciolândia,GO,BR
+5209952,Indiara,GO,BR
+5210000,Inhumas,GO,BR
+5210109,Ipameri,GO,BR
+5210158,Ipiranga de Goiás,GO,BR
+5210208,Iporá,GO,BR
+5210307,Israelândia,GO,BR
+5210406,Itaberaí,GO,BR
+5210562,Itaguari,GO,BR
+5210604,Itaguaru,GO,BR
+5210802,Itajá,GO,BR
+5210901,Itapaci,GO,BR
+5211008,Itapirapuã,GO,BR
+5211206,Itapuranga,GO,BR
+5211305,Itarumã,GO,BR
+5211404,Itauçu,GO,BR
+5211503,Itumbiara,GO,BR
+5211602,Ivolândia,GO,BR
+5211701,Jandaia,GO,BR
+5211800,Jaraguá,GO,BR
+5211909,Jataí,GO,BR
+5212006,Jaupaci,GO,BR
+5212055,Jesúpolis,GO,BR
+5212105,Joviânia,GO,BR
+5212204,Jussara,GO,BR
+5212253,Lagoa Santa,GO,BR
+5212303,Leopoldo de Bulhões,GO,BR
+5212501,Luziânia,GO,BR
+5212600,Mairipotaba,GO,BR
+5212709,Mambaí,GO,BR
+5212808,Mara Rosa,GO,BR
+5212907,Marzagão,GO,BR
+5212956,Matrinchã,GO,BR
+5213004,Maurilândia,GO,BR
+5213053,Mimoso de Goiás,GO,BR
+5213087,Minaçu,GO,BR
+5213103,Mineiros,GO,BR
+5213400,Moiporá,GO,BR
+5213509,Monte Alegre de Goiás,GO,BR
+5213707,Montes Claros de Goiás,GO,BR
+5213756,Montividiu,GO,BR
+5213772,Montividiu do Norte,GO,BR
+5213806,Morrinhos,GO,BR
+5213855,Morro Agudo de Goiás,GO,BR
+5213905,Mossâmedes,GO,BR
+5214002,Mozarlândia,GO,BR
+5214051,Mundo Novo,GO,BR
+5214101,Mutunópolis,GO,BR
+5214408,Nazário,GO,BR
+5214507,Nerópolis,GO,BR
+5214606,Niquelândia,GO,BR
+5214705,Nova América,GO,BR
+5214804,Nova Aurora,GO,BR
+5214838,Nova Crixás,GO,BR
+5214861,Nova Glória,GO,BR
+5214879,Nova Iguaçu de Goiás,GO,BR
+5214903,Nova Roma,GO,BR
+5215009,Nova Veneza,GO,BR
+5215207,Novo Brasil,GO,BR
+5215231,Novo Gama,GO,BR
+5215256,Novo Planalto,GO,BR
+5215306,Orizona,GO,BR
+5215405,Ouro Verde de Goiás,GO,BR
+5215504,Ouvidor,GO,BR
+5215603,Padre Bernardo,GO,BR
+5215652,Palestina de Goiás,GO,BR
+5215702,Palmeiras de Goiás,GO,BR
+5215801,Palmelo,GO,BR
+5215900,Palminópolis,GO,BR
+5216007,Panamá,GO,BR
+5216304,Paranaiguara,GO,BR
+5216403,Paraúna,GO,BR
+5216452,Perolândia,GO,BR
+5216809,Petrolina de Goiás,GO,BR
+5216908,Pilar de Goiás,GO,BR
+5217104,Piracanjuba,GO,BR
+5217203,Piranhas,GO,BR
+5217302,Pirenópolis,GO,BR
+5217401,Pires do Rio,GO,BR
+5217609,Planaltina,GO,BR
+5217708,Pontalina,GO,BR
+5218003,Porangatu,GO,BR
+5218052,Porteirão,GO,BR
+5218102,Portelândia,GO,BR
+5218300,Posse,GO,BR
+5218391,Professor Jamil,GO,BR
+5218508,Quirinópolis,GO,BR
+5218607,Rialma,GO,BR
+5218706,Rianápolis,GO,BR
+5218789,Rio Quente,GO,BR
+5218805,Rio Verde,GO,BR
+5218904,Rubiataba,GO,BR
+5219001,Sanclerlândia,GO,BR
+5219100,Santa Bárbara de Goiás,GO,BR
+5219209,Santa Cruz de Goiás,GO,BR
+5219258,Santa Fé de Goiás,GO,BR
+5219308,Santa Helena de Goiás,GO,BR
+5219357,Santa Isabel,GO,BR
+5219407,Santa Rita do Araguaia,GO,BR
+5219456,Santa Rita do Novo Destino,GO,BR
+5219506,Santa Rosa de Goiás,GO,BR
+5219605,Santa Tereza de Goiás,GO,BR
+5219704,Santa Terezinha de Goiás,GO,BR
+5219712,Santo Antônio da Barra,GO,BR
+5219738,Santo Antônio de Goiás,GO,BR
+5219753,Santo Antônio do Descoberto,GO,BR
+5220454,Senador Canedo,GO,BR
+5220504,Serranópolis,GO,BR
+5220603,Silvânia,GO,BR
+5220686,Simolândia,GO,BR
+5219803,São Domingos,GO,BR
+5219902,São Francisco de Goiás,GO,BR
+5220009,São João d'Aliança,GO,BR
+5220058,São João da Paraúna,GO,BR
+5220157,São Luiz do Norte,GO,BR
+5220108,São Luís de Montes Belos,GO,BR
+5220207,São Miguel do Araguaia,GO,BR
+5220264,São Miguel do Passa Quatro,GO,BR
+5220280,São Patrício,GO,BR
+5220405,São Simão,GO,BR
+5220702,Sítio d'Abadia,GO,BR
+5221007,Taquaral de Goiás,GO,BR
+5221080,Teresina de Goiás,GO,BR
+5221197,Terezópolis de Goiás,GO,BR
+5221403,Trindade,GO,BR
+5221452,Trombas,GO,BR
+5221304,Três Ranchos,GO,BR
+5221551,Turvelândia,GO,BR
+5221502,Turvânia,GO,BR
+5221577,Uirapuru,GO,BR
+5221700,Uruana,GO,BR
+5221601,Uruaçu,GO,BR
+5221809,Urutaí,GO,BR
+5221858,Valparaíso de Goiás,GO,BR
+5221908,Varjão,GO,BR
+5222005,Vianópolis,GO,BR
+5222054,Vicentinópolis,GO,BR
+5222203,Vila Boa,GO,BR
+5222302,Vila Propício,GO,BR
+5200175,Água Fria de Goiás,GO,BR
+5200209,Água Limpa,GO,BR
+5200258,Águas Lindas de Goiás,GO,BR

@@ -1,0 +1,854 @@
+codigo_ibge,municipio,uf,pais
+3100104,Abadia dos Dourados,MG,BR
+3100203,Abaeté,MG,BR
+3100302,Abre Campo,MG,BR
+3100401,Acaiaca,MG,BR
+3100807,Aguanil,MG,BR
+3101102,Aimorés,MG,BR
+3101201,Aiuruoca,MG,BR
+3101300,Alagoa,MG,BR
+3101409,Albertina,MG,BR
+3101607,Alfenas,MG,BR
+3101631,Alfredo Vasconcelos,MG,BR
+3101706,Almenara,MG,BR
+3101805,Alpercata,MG,BR
+3101904,Alpinópolis,MG,BR
+3102001,Alterosa,MG,BR
+3102050,Alto Caparaó,MG,BR
+3153509,Alto Jequitibá,MG,BR
+3102100,Alto Rio Doce,MG,BR
+3102209,Alvarenga,MG,BR
+3102308,Alvinópolis,MG,BR
+3102407,Alvorada de Minas,MG,BR
+3101508,Além Paraíba,MG,BR
+3102506,Amparo do Serra,MG,BR
+3102605,Andradas,MG,BR
+3102803,Andrelândia,MG,BR
+3102852,Angelândia,MG,BR
+3102902,Antônio Carlos,MG,BR
+3103009,Antônio Dias,MG,BR
+3103108,Antônio Prado de Minas,MG,BR
+3103306,Aracitaba,MG,BR
+3103504,Araguari,MG,BR
+3103603,Arantina,MG,BR
+3103702,Araponga,MG,BR
+3103751,Araporã,MG,BR
+3103801,Arapuá,MG,BR
+3104007,Araxá,MG,BR
+3103207,Araçaí,MG,BR
+3103405,Araçuaí,MG,BR
+3103900,Araújos,MG,BR
+3104106,Arceburgo,MG,BR
+3104205,Arcos,MG,BR
+3104304,Areado,MG,BR
+3104403,Argirita,MG,BR
+3104452,Aricanduva,MG,BR
+3104502,Arinos,MG,BR
+3104601,Astolfo Dutra,MG,BR
+3104700,Ataléia,MG,BR
+3104809,Augusto de Lima,MG,BR
+3100500,Açucena,MG,BR
+3104908,Baependi,MG,BR
+3105004,Baldim,MG,BR
+3105103,Bambuí,MG,BR
+3105202,Bandeira,MG,BR
+3105301,Bandeira do Sul,MG,BR
+3105608,Barbacena,MG,BR
+3105707,Barra Longa,MG,BR
+3105905,Barroso,MG,BR
+3105400,Barão de Cocais,MG,BR
+3105509,Barão do Monte Alto,MG,BR
+3106002,Bela Vista de Minas,MG,BR
+3106101,Belmiro Braga,MG,BR
+3106200,Belo Horizonte,MG,BR
+3106309,Belo Oriente,MG,BR
+3106408,Belo Vale,MG,BR
+3106507,Berilo,MG,BR
+3106655,Berizal,MG,BR
+3106606,Bertópolis,MG,BR
+3106705,Betim,MG,BR
+3106804,Bias Fortes,MG,BR
+3106903,Bicas,MG,BR
+3107000,Biquinhas,MG,BR
+3107109,Boa Esperança,MG,BR
+3107208,Bocaina de Minas,MG,BR
+3107307,Bocaiúva,MG,BR
+3107406,Bom Despacho,MG,BR
+3107505,Bom Jardim de Minas,MG,BR
+3107604,Bom Jesus da Penha,MG,BR
+3107703,Bom Jesus do Amparo,MG,BR
+3107802,Bom Jesus do Galho,MG,BR
+3107901,Bom Repouso,MG,BR
+3108008,Bom Sucesso,MG,BR
+3108107,Bonfim,MG,BR
+3108206,Bonfinópolis de Minas,MG,BR
+3108255,Bonito de Minas,MG,BR
+3108305,Borda da Mata,MG,BR
+3108404,Botelhos,MG,BR
+3108503,Botumirim,MG,BR
+3108552,Brasilândia de Minas,MG,BR
+3108602,Brasília de Minas,MG,BR
+3108909,Brazópolis,MG,BR
+3108800,Braúnas,MG,BR
+3109006,Brumadinho,MG,BR
+3108701,Brás Pires,MG,BR
+3109105,Bueno Brandão,MG,BR
+3109204,Buenópolis,MG,BR
+3109253,Bugre,MG,BR
+3109303,Buritis,MG,BR
+3109402,Buritizeiro,MG,BR
+3109451,Cabeceira Grande,MG,BR
+3109501,Cabo Verde,MG,BR
+3109808,Cachoeira Dourada,MG,BR
+3109600,Cachoeira da Prata,MG,BR
+3109709,Cachoeira de Minas,MG,BR
+3102704,Cachoeira de Pajeú,MG,BR
+3109907,Caetanópolis,MG,BR
+3110004,Caeté,MG,BR
+3110103,Caiana,MG,BR
+3110202,Cajuri,MG,BR
+3110301,Caldas,MG,BR
+3110400,Camacho,MG,BR
+3110509,Camanducaia,MG,BR
+3110707,Cambuquira,MG,BR
+3110608,Cambuí,MG,BR
+3110905,Campanha,MG,BR
+3110806,Campanário,MG,BR
+3111002,Campestre,MG,BR
+3111101,Campina Verde,MG,BR
+3111150,Campo Azul,MG,BR
+3111200,Campo Belo,MG,BR
+3111408,Campo Florido,MG,BR
+3111309,Campo do Meio,MG,BR
+3111507,Campos Altos,MG,BR
+3111606,Campos Gerais,MG,BR
+3111903,Cana Verde,MG,BR
+3111705,Canaã,MG,BR
+3112000,Candeias,MG,BR
+3112059,Cantagalo,MG,BR
+3111804,Canápolis,MG,BR
+3112109,Caparaó,MG,BR
+3112208,Capela Nova,MG,BR
+3112307,Capelinha,MG,BR
+3112406,Capetinga,MG,BR
+3112505,Capim Branco,MG,BR
+3112604,Capinópolis,MG,BR
+3112653,Capitão Andrade,MG,BR
+3112703,Capitão Enéas,MG,BR
+3112802,Capitólio,MG,BR
+3112901,Caputira,MG,BR
+3113107,Caranaíba,MG,BR
+3113206,Carandaí,MG,BR
+3113305,Carangola,MG,BR
+3113404,Caratinga,MG,BR
+3113008,Caraí,MG,BR
+3113503,Carbonita,MG,BR
+3113602,Careaçu,MG,BR
+3113701,Carlos Chagas,MG,BR
+3113909,Carmo da Cachoeira,MG,BR
+3114006,Carmo da Mata,MG,BR
+3114105,Carmo de Minas,MG,BR
+3114204,Carmo do Cajuru,MG,BR
+3114303,Carmo do Paranaíba,MG,BR
+3114402,Carmo do Rio Claro,MG,BR
+3113800,Carmésia,MG,BR
+3114501,Carmópolis de Minas,MG,BR
+3114550,Carneirinho,MG,BR
+3114600,Carrancas,MG,BR
+3114808,Carvalhos,MG,BR
+3114709,Carvalhópolis,MG,BR
+3114907,Casa Grande,MG,BR
+3115003,Cascalho Rico,MG,BR
+3115300,Cataguases,MG,BR
+3115359,Catas Altas,MG,BR
+3115409,Catas Altas da Noruega,MG,BR
+3115458,Catuji,MG,BR
+3115474,Catuti,MG,BR
+3115508,Caxambu,MG,BR
+3115607,Cedro do Abaeté,MG,BR
+3115706,Central de Minas,MG,BR
+3115805,Centralina,MG,BR
+3116001,Chalé,MG,BR
+3116159,Chapada Gaúcha,MG,BR
+3116100,Chapada do Norte,MG,BR
+3116209,Chiador,MG,BR
+3115904,Chácara,MG,BR
+3116308,Cipotânea,MG,BR
+3116407,Claraval,MG,BR
+3116506,Claro dos Poções,MG,BR
+3116605,Cláudio,MG,BR
+3116704,Coimbra,MG,BR
+3116803,Coluna,MG,BR
+3116902,Comendador Gomes,MG,BR
+3117009,Comercinho,MG,BR
+3117108,Conceição da Aparecida,MG,BR
+3115201,Conceição da Barra de Minas,MG,BR
+3117306,Conceição das Alagoas,MG,BR
+3117207,Conceição das Pedras,MG,BR
+3117405,Conceição de Ipanema,MG,BR
+3117504,Conceição do Mato Dentro,MG,BR
+3117603,Conceição do Pará,MG,BR
+3117702,Conceição do Rio Verde,MG,BR
+3117801,Conceição dos Ouros,MG,BR
+3117876,Confins,MG,BR
+3117900,Congonhal,MG,BR
+3118007,Congonhas,MG,BR
+3118106,Congonhas do Norte,MG,BR
+3118205,Conquista,MG,BR
+3118304,Conselheiro Lafaiete,MG,BR
+3118403,Conselheiro Pena,MG,BR
+3118502,Consolação,MG,BR
+3118601,Contagem,MG,BR
+3118700,Coqueiral,MG,BR
+3118809,Coração de Jesus,MG,BR
+3118908,Cordisburgo,MG,BR
+3119005,Cordislândia,MG,BR
+3119104,Corinto,MG,BR
+3119203,Coroaci,MG,BR
+3119302,Coromandel,MG,BR
+3119401,Coronel Fabriciano,MG,BR
+3119500,Coronel Murta,MG,BR
+3119609,Coronel Pacheco,MG,BR
+3119708,Coronel Xavier Chaves,MG,BR
+3120102,Couto de Magalhães de Minas,MG,BR
+3120201,Cristais,MG,BR
+3120409,Cristiano Otoni,MG,BR
+3120508,Cristina,MG,BR
+3120300,Cristália,MG,BR
+3120151,Crisólita,MG,BR
+3120607,Crucilândia,MG,BR
+3120706,Cruzeiro da Fortaleza,MG,BR
+3120805,Cruzília,MG,BR
+3120839,Cuparaque,MG,BR
+3120870,Curral de Dentro,MG,BR
+3120904,Curvelo,MG,BR
+3115102,Cássia,MG,BR
+3119807,Córrego Danta,MG,BR
+3119955,Córrego Fundo,MG,BR
+3120003,Córrego Novo,MG,BR
+3119906,Córrego do Bom Jesus,MG,BR
+3117836,Cônego Marinho,MG,BR
+3121001,Datas,MG,BR
+3121100,Delfim Moreira,MG,BR
+3121209,Delfinópolis,MG,BR
+3121258,Delta,MG,BR
+3121308,Descoberto,MG,BR
+3121407,Desterro de Entre Rios,MG,BR
+3121506,Desterro do Melo,MG,BR
+3121605,Diamantina,MG,BR
+3121704,Diogo de Vasconcelos,MG,BR
+3121803,Dionísio,MG,BR
+3122009,Divino,MG,BR
+3122108,Divino das Laranjeiras,MG,BR
+3122207,Divinolândia de Minas,MG,BR
+3121902,Divinésia,MG,BR
+3122306,Divinópolis,MG,BR
+3122355,Divisa Alegre,MG,BR
+3122405,Divisa Nova,MG,BR
+3122454,Divisópolis,MG,BR
+3122470,Dom Bosco,MG,BR
+3122504,Dom Cavati,MG,BR
+3122603,Dom Joaquim,MG,BR
+3122702,Dom Silvério,MG,BR
+3122801,Dom Viçoso,MG,BR
+3122900,Dona Euzébia,MG,BR
+3123007,Dores de Campos,MG,BR
+3123106,Dores de Guanhães,MG,BR
+3123205,Dores do Indaiá,MG,BR
+3123304,Dores do Turvo,MG,BR
+3123403,Doresópolis,MG,BR
+3123502,Douradoquara,MG,BR
+3123528,Durandé,MG,BR
+3123601,Elói Mendes,MG,BR
+3123700,Engenheiro Caldas,MG,BR
+3123809,Engenheiro Navarro,MG,BR
+3123858,Entre Folhas,MG,BR
+3123908,Entre Rios de Minas,MG,BR
+3124005,Ervália,MG,BR
+3124104,Esmeraldas,MG,BR
+3124203,Espera Feliz,MG,BR
+3124302,Espinosa,MG,BR
+3124401,Espírito Santo do Dourado,MG,BR
+3124500,Estiva,MG,BR
+3124609,Estrela Dalva,MG,BR
+3124708,Estrela do Indaiá,MG,BR
+3124807,Estrela do Sul,MG,BR
+3124906,Eugenópolis,MG,BR
+3125002,Ewbank da Câmara,MG,BR
+3125101,Extrema,MG,BR
+3125200,Fama,MG,BR
+3125309,Faria Lemos,MG,BR
+3125606,Felisburgo,MG,BR
+3125705,Felixlândia,MG,BR
+3125408,Felício dos Santos,MG,BR
+3125804,Fernandes Tourinho,MG,BR
+3125903,Ferros,MG,BR
+3125952,Fervedouro,MG,BR
+3126000,Florestal,MG,BR
+3126109,Formiga,MG,BR
+3126208,Formoso,MG,BR
+3126307,Fortaleza de Minas,MG,BR
+3126406,Fortuna de Minas,MG,BR
+3126505,Francisco Badaró,MG,BR
+3126604,Francisco Dumont,MG,BR
+3126703,Francisco Sá,MG,BR
+3126752,Franciscópolis,MG,BR
+3126802,Frei Gaspar,MG,BR
+3126901,Frei Inocêncio,MG,BR
+3126950,Frei Lagonegro,MG,BR
+3127008,Fronteira,MG,BR
+3127057,Fronteira dos Vales,MG,BR
+3127073,Fruta de Leite,MG,BR
+3127107,Frutal,MG,BR
+3127206,Funilândia,MG,BR
+3127305,Galiléia,MG,BR
+3127339,Gameleiras,MG,BR
+3127354,Glaucilândia,MG,BR
+3127370,Goiabeira,MG,BR
+3127388,Goianá,MG,BR
+3127503,Gonzaga,MG,BR
+3127404,Gonçalves,MG,BR
+3127602,Gouveia,MG,BR
+3127701,Governador Valadares,MG,BR
+3127909,Grupiara,MG,BR
+3127800,Grão Mogol,MG,BR
+3128006,Guanhães,MG,BR
+3128105,Guapé,MG,BR
+3128204,Guaraciaba,MG,BR
+3128253,Guaraciama,MG,BR
+3128402,Guarani,MG,BR
+3128303,Guaranésia,MG,BR
+3128501,Guarará,MG,BR
+3128600,Guarda-Mor,MG,BR
+3128709,Guaxupé,MG,BR
+3128808,Guidoval,MG,BR
+3128907,Guimarânia,MG,BR
+3129004,Guiricema,MG,BR
+3129103,Gurinhatã,MG,BR
+3129202,Heliodora,MG,BR
+3129301,Iapu,MG,BR
+3129400,Ibertioga,MG,BR
+3129608,Ibiaí,MG,BR
+3129657,Ibiracatu,MG,BR
+3129707,Ibiraci,MG,BR
+3129806,Ibirité,MG,BR
+3129905,Ibitiúra de Minas,MG,BR
+3130002,Ibituruna,MG,BR
+3129509,Ibiá,MG,BR
+3130051,Icaraí de Minas,MG,BR
+3130101,Igarapé,MG,BR
+3130200,Igaratinga,MG,BR
+3130309,Iguatama,MG,BR
+3130408,Ijaci,MG,BR
+3130507,Ilicínea,MG,BR
+3130556,Imbé de Minas,MG,BR
+3130606,Inconfidentes,MG,BR
+3130655,Indaiabira,MG,BR
+3130705,Indianópolis,MG,BR
+3130804,Ingaí,MG,BR
+3130903,Inhapim,MG,BR
+3131000,Inhaúma,MG,BR
+3131109,Inimutaba,MG,BR
+3131158,Ipaba,MG,BR
+3131208,Ipanema,MG,BR
+3131307,Ipatinga,MG,BR
+3131406,Ipiaçu,MG,BR
+3131505,Ipuiúna,MG,BR
+3131604,Iraí de Minas,MG,BR
+3131703,Itabira,MG,BR
+3131802,Itabirinha,MG,BR
+3131901,Itabirito,MG,BR
+3132008,Itacambira,MG,BR
+3132107,Itacarambi,MG,BR
+3132206,Itaguara,MG,BR
+3132305,Itaipé,MG,BR
+3132404,Itajubá,MG,BR
+3132503,Itamarandiba,MG,BR
+3132602,Itamarati de Minas,MG,BR
+3132701,Itambacuri,MG,BR
+3132800,Itambé do Mato Dentro,MG,BR
+3132909,Itamogi,MG,BR
+3133006,Itamonte,MG,BR
+3133105,Itanhandu,MG,BR
+3133204,Itanhomi,MG,BR
+3133303,Itaobim,MG,BR
+3133402,Itapagipe,MG,BR
+3133501,Itapecerica,MG,BR
+3133600,Itapeva,MG,BR
+3133709,Itatiaiuçu,MG,BR
+3133907,Itaverava,MG,BR
+3133758,Itaú de Minas,MG,BR
+3133808,Itaúna,MG,BR
+3134004,Itinga,MG,BR
+3134103,Itueta,MG,BR
+3134202,Ituiutaba,MG,BR
+3134301,Itumirim,MG,BR
+3134400,Iturama,MG,BR
+3134509,Itutinga,MG,BR
+3134608,Jaboticatubas,MG,BR
+3134707,Jacinto,MG,BR
+3134905,Jacutinga,MG,BR
+3134806,Jacuí,MG,BR
+3135001,Jaguaraçu,MG,BR
+3135076,Jampruca,MG,BR
+3135100,Janaúba,MG,BR
+3135209,Januária,MG,BR
+3135308,Japaraíba,MG,BR
+3135357,Japonvar,MG,BR
+3135050,Jaíba,MG,BR
+3135407,Jeceaba,MG,BR
+3135456,Jenipapo de Minas,MG,BR
+3135506,Jequeri,MG,BR
+3135605,Jequitaí,MG,BR
+3135704,Jequitibá,MG,BR
+3135803,Jequitinhonha,MG,BR
+3135902,Jesuânia,MG,BR
+3136108,Joanésia,MG,BR
+3136405,Joaquim Felício,MG,BR
+3136009,Joaíma,MG,BR
+3136504,Jordânia,MG,BR
+3136579,Josenópolis,MG,BR
+3136520,José Gonçalves de Minas,MG,BR
+3136553,José Raydan,MG,BR
+3136207,João Monlevade,MG,BR
+3136306,João Pinheiro,MG,BR
+3136652,Juatuba,MG,BR
+3136702,Juiz de Fora,MG,BR
+3136801,Juramento,MG,BR
+3136900,Juruaia,MG,BR
+3136959,Juvenília,MG,BR
+3137007,Ladainha,MG,BR
+3137106,Lagamar,MG,BR
+3137403,Lagoa Dourada,MG,BR
+3137502,Lagoa Formosa,MG,BR
+3137536,Lagoa Grande,MG,BR
+3137601,Lagoa Santa,MG,BR
+3137205,Lagoa da Prata,MG,BR
+3137304,Lagoa dos Patos,MG,BR
+3137700,Lajinha,MG,BR
+3137809,Lambari,MG,BR
+3137908,Lamim,MG,BR
+3138005,Laranjal,MG,BR
+3138104,Lassance,MG,BR
+3138203,Lavras,MG,BR
+3138302,Leandro Ferreira,MG,BR
+3138351,Leme do Prado,MG,BR
+3138401,Leopoldina,MG,BR
+3138500,Liberdade,MG,BR
+3138609,Lima Duarte,MG,BR
+3138625,Limeira do Oeste,MG,BR
+3138658,Lontra,MG,BR
+3138674,Luisburgo,MG,BR
+3138682,Luislândia,MG,BR
+3138708,Luminárias,MG,BR
+3138807,Luz,MG,BR
+3138906,Machacalis,MG,BR
+3139003,Machado,MG,BR
+3139102,Madre de Deus de Minas,MG,BR
+3139201,Malacacheta,MG,BR
+3139250,Mamonas,MG,BR
+3139300,Manga,MG,BR
+3139409,Manhuaçu,MG,BR
+3139508,Manhumirim,MG,BR
+3139607,Mantena,MG,BR
+3139805,Mar de Espanha,MG,BR
+3139706,Maravilhas,MG,BR
+3139904,Maria da Fé,MG,BR
+3140001,Mariana,MG,BR
+3140100,Marilac,MG,BR
+3140209,Maripá de Minas,MG,BR
+3140308,Marliéria,MG,BR
+3140407,Marmelópolis,MG,BR
+3140506,Martinho Campos,MG,BR
+3140530,Martins Soares,MG,BR
+3140555,Mata Verde,MG,BR
+3140605,Materlândia,MG,BR
+3140704,Mateus Leme,MG,BR
+3171501,Mathias Lobato,MG,BR
+3140803,Matias Barbosa,MG,BR
+3140852,Matias Cardoso,MG,BR
+3140902,Matipó,MG,BR
+3141009,Mato Verde,MG,BR
+3141108,Matozinhos,MG,BR
+3141207,Matutina,MG,BR
+3141306,Medeiros,MG,BR
+3141405,Medina,MG,BR
+3141504,Mendes Pimentel,MG,BR
+3141603,Mercês,MG,BR
+3141702,Mesquita,MG,BR
+3141801,Minas Novas,MG,BR
+3141900,Minduri,MG,BR
+3142007,Mirabela,MG,BR
+3142106,Miradouro,MG,BR
+3142254,Miravânia,MG,BR
+3142205,Miraí,MG,BR
+3142304,Moeda,MG,BR
+3142403,Moema,MG,BR
+3142502,Monjolos,MG,BR
+3142601,Monsenhor Paulo,MG,BR
+3142700,Montalvânia,MG,BR
+3142809,Monte Alegre de Minas,MG,BR
+3142908,Monte Azul,MG,BR
+3143005,Monte Belo,MG,BR
+3143104,Monte Carmelo,MG,BR
+3143153,Monte Formoso,MG,BR
+3143203,Monte Santo de Minas,MG,BR
+3143401,Monte Sião,MG,BR
+3143302,Montes Claros,MG,BR
+3143450,Montezuma,MG,BR
+3143500,Morada Nova de Minas,MG,BR
+3143609,Morro da Garça,MG,BR
+3143708,Morro do Pilar,MG,BR
+3143807,Munhoz,MG,BR
+3143906,Muriaé,MG,BR
+3144003,Mutum,MG,BR
+3144102,Muzambinho,MG,BR
+3140159,Mário Campos,MG,BR
+3144201,Nacip Raydan,MG,BR
+3144300,Nanuque,MG,BR
+3144359,Naque,MG,BR
+3144375,Natalândia,MG,BR
+3144409,Natércia,MG,BR
+3144508,Nazareno,MG,BR
+3144607,Nepomuceno,MG,BR
+3144656,Ninheira,MG,BR
+3144672,Nova Belém,MG,BR
+3144706,Nova Era,MG,BR
+3144805,Nova Lima,MG,BR
+3144904,Nova Módica,MG,BR
+3145000,Nova Ponte,MG,BR
+3145059,Nova Porteirinha,MG,BR
+3145109,Nova Resende,MG,BR
+3145208,Nova Serrana,MG,BR
+3136603,Nova União,MG,BR
+3145307,Novo Cruzeiro,MG,BR
+3145356,Novo Oriente de Minas,MG,BR
+3145372,Novorizonte,MG,BR
+3145406,Olaria,MG,BR
+3145455,Olhos-d'Água,MG,BR
+3145604,Oliveira,MG,BR
+3145703,Oliveira Fortes,MG,BR
+3145505,Olímpio Noronha,MG,BR
+3145802,Onça de Pitangui,MG,BR
+3145851,Oratórios,MG,BR
+3145877,Orizânia,MG,BR
+3145901,Ouro Branco,MG,BR
+3146008,Ouro Fino,MG,BR
+3146107,Ouro Preto,MG,BR
+3146206,Ouro Verde de Minas,MG,BR
+3146255,Padre Carvalho,MG,BR
+3146305,Padre Paraíso,MG,BR
+3146552,Pai Pedro,MG,BR
+3146404,Paineiras,MG,BR
+3146503,Pains,MG,BR
+3146602,Paiva,MG,BR
+3146701,Palma,MG,BR
+3146750,Palmópolis,MG,BR
+3146909,Papagaios,MG,BR
+3147006,Paracatu,MG,BR
+3147204,Paraguaçu,MG,BR
+3147303,Paraisópolis,MG,BR
+3147402,Paraopeba,MG,BR
+3147105,Pará de Minas,MG,BR
+3147600,Passa Quatro,MG,BR
+3147709,Passa Tempo,MG,BR
+3147808,Passa Vinte,MG,BR
+3147501,Passabém,MG,BR
+3147907,Passos,MG,BR
+3147956,Patis,MG,BR
+3148004,Patos de Minas,MG,BR
+3148103,Patrocínio,MG,BR
+3148202,Patrocínio do Muriaé,MG,BR
+3148301,Paula Cândido,MG,BR
+3148400,Paulistas,MG,BR
+3148509,Pavão,MG,BR
+3148707,Pedra Azul,MG,BR
+3148756,Pedra Bonita,MG,BR
+3149002,Pedra Dourada,MG,BR
+3148806,Pedra do Anta,MG,BR
+3148905,Pedra do Indaiá,MG,BR
+3149101,Pedralva,MG,BR
+3149150,Pedras de Maria da Cruz,MG,BR
+3149200,Pedrinópolis,MG,BR
+3149309,Pedro Leopoldo,MG,BR
+3149408,Pedro Teixeira,MG,BR
+3149507,Pequeri,MG,BR
+3149606,Pequi,MG,BR
+3149705,Perdigão,MG,BR
+3149804,Perdizes,MG,BR
+3149903,Perdões,MG,BR
+3149952,Periquito,MG,BR
+3150000,Pescador,MG,BR
+3148608,Peçanha,MG,BR
+3150109,Piau,MG,BR
+3150158,Piedade de Caratinga,MG,BR
+3150208,Piedade de Ponte Nova,MG,BR
+3150307,Piedade do Rio Grande,MG,BR
+3150406,Piedade dos Gerais,MG,BR
+3150505,Pimenta,MG,BR
+3150539,Pingo-d'Água,MG,BR
+3150570,Pintópolis,MG,BR
+3150604,Piracema,MG,BR
+3150703,Pirajuba,MG,BR
+3150802,Piranga,MG,BR
+3151008,Piranguinho,MG,BR
+3150901,Piranguçu,MG,BR
+3151107,Pirapetinga,MG,BR
+3151206,Pirapora,MG,BR
+3151305,Piraúba,MG,BR
+3151404,Pitangui,MG,BR
+3151503,Piumhi,MG,BR
+3151602,Planura,MG,BR
+3151909,Pocrane,MG,BR
+3152006,Pompéu,MG,BR
+3152105,Ponte Nova,MG,BR
+3152131,Ponto Chique,MG,BR
+3152170,Ponto dos Volantes,MG,BR
+3152204,Porteirinha,MG,BR
+3152303,Porto Firme,MG,BR
+3152402,Poté,MG,BR
+3152501,Pouso Alegre,MG,BR
+3152600,Pouso Alto,MG,BR
+3151701,Poço Fundo,MG,BR
+3151800,Poços de Caldas,MG,BR
+3152709,Prados,MG,BR
+3152808,Prata,MG,BR
+3153004,Pratinha,MG,BR
+3152907,Pratápolis,MG,BR
+3153103,Presidente Bernardes,MG,BR
+3153202,Presidente Juscelino,MG,BR
+3153301,Presidente Kubitschek,MG,BR
+3153400,Presidente Olegário,MG,BR
+3153608,Prudente de Morais,MG,BR
+3153707,Quartel Geral,MG,BR
+3153806,Queluzito,MG,BR
+3153905,Raposos,MG,BR
+3154002,Raul Soares,MG,BR
+3154101,Recreio,MG,BR
+3154150,Reduto,MG,BR
+3154200,Resende Costa,MG,BR
+3154309,Resplendor,MG,BR
+3154408,Ressaquinha,MG,BR
+3154457,Riachinho,MG,BR
+3154507,Riacho dos Machados,MG,BR
+3154705,Ribeirão Vermelho,MG,BR
+3154606,Ribeirão das Neves,MG,BR
+3154804,Rio Acima,MG,BR
+3154903,Rio Casca,MG,BR
+3155009,Rio Doce,MG,BR
+3155207,Rio Espera,MG,BR
+3155306,Rio Manso,MG,BR
+3155405,Rio Novo,MG,BR
+3155504,Rio Paranaíba,MG,BR
+3155603,Rio Pardo de Minas,MG,BR
+3155702,Rio Piracicaba,MG,BR
+3155801,Rio Pomba,MG,BR
+3155900,Rio Preto,MG,BR
+3156007,Rio Vermelho,MG,BR
+3155108,Rio do Prado,MG,BR
+3156106,Ritápolis,MG,BR
+3156205,Rochedo de Minas,MG,BR
+3156304,Rodeiro,MG,BR
+3156403,Romaria,MG,BR
+3156452,Rosário da Limeira,MG,BR
+3156502,Rubelita,MG,BR
+3156601,Rubim,MG,BR
+3156700,Sabará,MG,BR
+3156809,Sabinópolis,MG,BR
+3156908,Sacramento,MG,BR
+3157005,Salinas,MG,BR
+3157104,Salto da Divisa,MG,BR
+3157203,Santa Bárbara,MG,BR
+3157252,Santa Bárbara do Leste,MG,BR
+3157278,Santa Bárbara do Monte Verde,MG,BR
+3157302,Santa Bárbara do Tugúrio,MG,BR
+3157336,Santa Cruz de Minas,MG,BR
+3157377,Santa Cruz de Salinas,MG,BR
+3157401,Santa Cruz do Escalvado,MG,BR
+3157500,Santa Efigênia de Minas,MG,BR
+3157609,Santa Fé de Minas,MG,BR
+3157658,Santa Helena de Minas,MG,BR
+3157708,Santa Juliana,MG,BR
+3157807,Santa Luzia,MG,BR
+3157906,Santa Margarida,MG,BR
+3158003,Santa Maria de Itabira,MG,BR
+3158102,Santa Maria do Salto,MG,BR
+3158201,Santa Maria do Suaçuí,MG,BR
+3159209,Santa Rita de Caldas,MG,BR
+3159407,Santa Rita de Ibitipoca,MG,BR
+3159308,Santa Rita de Jacutinga,MG,BR
+3159357,Santa Rita de Minas,MG,BR
+3159506,Santa Rita do Itueto,MG,BR
+3159605,Santa Rita do Sapucaí,MG,BR
+3159704,Santa Rosa da Serra,MG,BR
+3159803,Santa Vitória,MG,BR
+3158300,Santana da Vargem,MG,BR
+3158409,Santana de Cataguases,MG,BR
+3158508,Santana de Pirapama,MG,BR
+3158607,Santana do Deserto,MG,BR
+3158706,Santana do Garambéu,MG,BR
+3158805,Santana do Jacaré,MG,BR
+3158904,Santana do Manhuaçu,MG,BR
+3158953,Santana do Paraíso,MG,BR
+3159001,Santana do Riacho,MG,BR
+3159100,Santana dos Montes,MG,BR
+3159902,Santo Antônio do Amparo,MG,BR
+3160009,Santo Antônio do Aventureiro,MG,BR
+3160108,Santo Antônio do Grama,MG,BR
+3160207,Santo Antônio do Itambé,MG,BR
+3160306,Santo Antônio do Jacinto,MG,BR
+3160405,Santo Antônio do Monte,MG,BR
+3160454,Santo Antônio do Retiro,MG,BR
+3160504,Santo Antônio do Rio Abaixo,MG,BR
+3160603,Santo Hipólito,MG,BR
+3160702,Santos Dumont,MG,BR
+3165404,Sapucaí-Mirim,MG,BR
+3165503,Sardoá,MG,BR
+3165537,Sarzedo,MG,BR
+3165560,Sem-Peixe,MG,BR
+3165578,Senador Amaral,MG,BR
+3165602,Senador Cortes,MG,BR
+3165701,Senador Firmino,MG,BR
+3165800,Senador José Bento,MG,BR
+3165909,Senador Modestino Gonçalves,MG,BR
+3166006,Senhora de Oliveira,MG,BR
+3166105,Senhora do Porto,MG,BR
+3166204,Senhora dos Remédios,MG,BR
+3166303,Sericita,MG,BR
+3166402,Seritinga,MG,BR
+3166501,Serra Azul de Minas,MG,BR
+3166600,Serra da Saudade,MG,BR
+3166808,Serra do Salitre,MG,BR
+3166709,Serra dos Aimorés,MG,BR
+3166907,Serrania,MG,BR
+3167004,Serranos,MG,BR
+3166956,Serranópolis de Minas,MG,BR
+3167103,Serro,MG,BR
+3167202,Sete Lagoas,MG,BR
+3165552,Setubinha,MG,BR
+3167301,Silveirânia,MG,BR
+3167400,Silvianópolis,MG,BR
+3167608,Simonésia,MG,BR
+3167509,Simão Pereira,MG,BR
+3167707,Sobrália,MG,BR
+3167806,Soledade de Minas,MG,BR
+3160801,São Bento Abade,MG,BR
+3160900,São Brás do Suaçuí,MG,BR
+3160959,São Domingos das Dores,MG,BR
+3161007,São Domingos do Prata,MG,BR
+3161106,São Francisco,MG,BR
+3161205,São Francisco de Paula,MG,BR
+3161304,São Francisco de Sales,MG,BR
+3161403,São Francisco do Glória,MG,BR
+3161056,São Félix de Minas,MG,BR
+3161502,São Geraldo,MG,BR
+3161601,São Geraldo da Piedade,MG,BR
+3161650,São Geraldo do Baixio,MG,BR
+3161700,São Gonçalo do Abaeté,MG,BR
+3161809,São Gonçalo do Pará,MG,BR
+3161908,São Gonçalo do Rio Abaixo,MG,BR
+3125507,São Gonçalo do Rio Preto,MG,BR
+3162005,São Gonçalo do Sapucaí,MG,BR
+3162104,São Gotardo,MG,BR
+3162922,São Joaquim de Bicas,MG,BR
+3162948,São José da Barra,MG,BR
+3162955,São José da Lapa,MG,BR
+3163003,São José da Safira,MG,BR
+3163102,São José da Varginha,MG,BR
+3163201,São José do Alegre,MG,BR
+3163300,São José do Divino,MG,BR
+3163409,São José do Goiabal,MG,BR
+3163508,São José do Jacuri,MG,BR
+3163607,São José do Mantimento,MG,BR
+3162203,São João Batista do Glória,MG,BR
+3162807,São João Evangelista,MG,BR
+3162906,São João Nepomuceno,MG,BR
+3162252,São João da Lagoa,MG,BR
+3162302,São João da Mata,MG,BR
+3162401,São João da Ponte,MG,BR
+3162450,São João das Missões,MG,BR
+3162500,São João del Rei,MG,BR
+3162559,São João do Manhuaçu,MG,BR
+3162575,São João do Manteninha,MG,BR
+3162609,São João do Oriente,MG,BR
+3162658,São João do Pacuí,MG,BR
+3162708,São João do Paraíso,MG,BR
+3163706,São Lourenço,MG,BR
+3163805,São Miguel do Anta,MG,BR
+3163904,São Pedro da União,MG,BR
+3164100,São Pedro do Suaçuí,MG,BR
+3164001,São Pedro dos Ferros,MG,BR
+3164209,São Romão,MG,BR
+3164308,São Roque de Minas,MG,BR
+3164407,São Sebastião da Bela Vista,MG,BR
+3164431,São Sebastião da Vargem Alegre,MG,BR
+3164472,São Sebastião do Anta,MG,BR
+3164506,São Sebastião do Maranhão,MG,BR
+3164605,São Sebastião do Oeste,MG,BR
+3164704,São Sebastião do Paraíso,MG,BR
+3164803,São Sebastião do Rio Preto,MG,BR
+3164902,São Sebastião do Rio Verde,MG,BR
+3165008,São Tiago,MG,BR
+3165107,São Tomás de Aquino,MG,BR
+3165206,São Tomé das Letras,MG,BR
+3165305,São Vicente de Minas,MG,BR
+3167905,Tabuleiro,MG,BR
+3168002,Taiobeiras,MG,BR
+3168051,Taparuba,MG,BR
+3168101,Tapira,MG,BR
+3168200,Tapiraí,MG,BR
+3168309,Taquaraçu de Minas,MG,BR
+3168408,Tarumirim,MG,BR
+3168507,Teixeiras,MG,BR
+3168606,Teófilo Otoni,MG,BR
+3168705,Timóteo,MG,BR
+3168804,Tiradentes,MG,BR
+3168903,Tiros,MG,BR
+3169000,Tocantins,MG,BR
+3169059,Tocos do Moji,MG,BR
+3169109,Toledo,MG,BR
+3169208,Tombos,MG,BR
+3169307,Três Corações,MG,BR
+3169356,Três Marias,MG,BR
+3169406,Três Pontas,MG,BR
+3169505,Tumiritinga,MG,BR
+3169604,Tupaciguara,MG,BR
+3169703,Turmalina,MG,BR
+3169802,Turvolândia,MG,BR
+3170057,Ubaporanga,MG,BR
+3170008,Ubaí,MG,BR
+3170107,Uberaba,MG,BR
+3170206,Uberlândia,MG,BR
+3169901,Ubá,MG,BR
+3170305,Umburatiba,MG,BR
+3170404,Unaí,MG,BR
+3170438,União de Minas,MG,BR
+3170479,Uruana de Minas,MG,BR
+3170529,Urucuia,MG,BR
+3170503,Urucânia,MG,BR
+3170578,Vargem Alegre,MG,BR
+3170602,Vargem Bonita,MG,BR
+3170651,Vargem Grande do Rio Pardo,MG,BR
+3170701,Varginha,MG,BR
+3170750,Varjão de Minas,MG,BR
+3170909,Varzelândia,MG,BR
+3171006,Vazante,MG,BR
+3171030,Verdelândia,MG,BR
+3171071,Veredinha,MG,BR
+3171154,Vermelho Novo,MG,BR
+3171105,Veríssimo,MG,BR
+3171204,Vespasiano,MG,BR
+3171402,Vieiras,MG,BR
+3171600,Virgem da Lapa,MG,BR
+3171808,Virginópolis,MG,BR
+3171907,Virgolândia,MG,BR
+3171709,Virgínia,MG,BR
+3172004,Visconde do Rio Branco,MG,BR
+3171303,Viçosa,MG,BR
+3172103,Volta Grande,MG,BR
+3170800,Várzea da Palma,MG,BR
+3172202,Wenceslau Braz,MG,BR
+3100609,Água Boa,MG,BR
+3100708,Água Comprida,MG,BR
+3100906,Águas Formosas,MG,BR
+3101003,Águas Vermelhas,MG,BR

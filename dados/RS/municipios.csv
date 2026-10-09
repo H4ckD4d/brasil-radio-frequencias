@@ -1,0 +1,498 @@
+codigo_ibge,municipio,uf,pais
+4300034,Aceguá,RS,BR
+4300109,Agudo,RS,BR
+4300208,Ajuricaba,RS,BR
+4300307,Alecrim,RS,BR
+4300406,Alegrete,RS,BR
+4300455,Alegria,RS,BR
+4300471,Almirante Tamandaré do Sul,RS,BR
+4300505,Alpestre,RS,BR
+4300554,Alto Alegre,RS,BR
+4300570,Alto Feliz,RS,BR
+4300604,Alvorada,RS,BR
+4300638,Amaral Ferrador,RS,BR
+4300646,Ametista do Sul,RS,BR
+4300661,André da Rocha,RS,BR
+4300703,Anta Gorda,RS,BR
+4300802,Antônio Prado,RS,BR
+4300851,Arambaré,RS,BR
+4300877,Araricá,RS,BR
+4300901,Aratiba,RS,BR
+4301305,Arroio Grande,RS,BR
+4301008,Arroio do Meio,RS,BR
+4301073,Arroio do Padre,RS,BR
+4301057,Arroio do Sal,RS,BR
+4301206,Arroio do Tigre,RS,BR
+4301107,Arroio dos Ratos,RS,BR
+4301404,Arvorezinha,RS,BR
+4301503,Augusto Pestana,RS,BR
+4301602,Bagé,RS,BR
+4301636,Balneário Pinhal,RS,BR
+4301958,Barra Funda,RS,BR
+4301859,Barra do Guarita,RS,BR
+4301875,Barra do Quaraí,RS,BR
+4301909,Barra do Ribeiro,RS,BR
+4301925,Barra do Rio Azul,RS,BR
+4301800,Barracão,RS,BR
+4302006,Barros Cassal,RS,BR
+4301651,Barão,RS,BR
+4301701,Barão de Cotegipe,RS,BR
+4301750,Barão do Triunfo,RS,BR
+4302055,Benjamin Constant do Sul,RS,BR
+4302105,Bento Gonçalves,RS,BR
+4302154,Boa Vista das Missões,RS,BR
+4302204,Boa Vista do Buricá,RS,BR
+4302220,Boa Vista do Cadeado,RS,BR
+4302238,Boa Vista do Incra,RS,BR
+4302253,Boa Vista do Sul,RS,BR
+4302303,Bom Jesus,RS,BR
+4302352,Bom Princípio,RS,BR
+4302378,Bom Progresso,RS,BR
+4302402,Bom Retiro do Sul,RS,BR
+4302451,Boqueirão do Leão,RS,BR
+4302501,Bossoroca,RS,BR
+4302584,Bozano,RS,BR
+4302600,Braga,RS,BR
+4302659,Brochier,RS,BR
+4302709,Butiá,RS,BR
+4302907,Cacequi,RS,BR
+4303004,Cachoeira do Sul,RS,BR
+4303103,Cachoeirinha,RS,BR
+4303202,Cacique Doble,RS,BR
+4303301,Caibaté,RS,BR
+4303400,Caiçara,RS,BR
+4303509,Camaquã,RS,BR
+4303558,Camargo,RS,BR
+4303608,Cambará do Sul,RS,BR
+4303673,Campestre da Serra,RS,BR
+4303707,Campina das Missões,RS,BR
+4303806,Campinas do Sul,RS,BR
+4303905,Campo Bom,RS,BR
+4304002,Campo Novo,RS,BR
+4304101,Campos Borges,RS,BR
+4304200,Candelária,RS,BR
+4304358,Candiota,RS,BR
+4304408,Canela,RS,BR
+4304507,Canguçu,RS,BR
+4304606,Canoas,RS,BR
+4304614,Canudos do Vale,RS,BR
+4304689,Capela de Santana,RS,BR
+4304697,Capitão,RS,BR
+4304671,Capivari do Sul,RS,BR
+4304622,Capão Bonito do Sul,RS,BR
+4304630,Capão da Canoa,RS,BR
+4304655,Capão do Cipó,RS,BR
+4304663,Capão do Leão,RS,BR
+4304705,Carazinho,RS,BR
+4304713,Caraá,RS,BR
+4304804,Carlos Barbosa,RS,BR
+4304853,Carlos Gomes,RS,BR
+4304903,Casca,RS,BR
+4304952,Caseiros,RS,BR
+4305009,Catuípe,RS,BR
+4305108,Caxias do Sul,RS,BR
+4302808,Caçapava do Sul,RS,BR
+4305116,Centenário,RS,BR
+4305124,Cerrito,RS,BR
+4305132,Cerro Branco,RS,BR
+4305157,Cerro Grande,RS,BR
+4305173,Cerro Grande do Sul,RS,BR
+4305207,Cerro Largo,RS,BR
+4305306,Chapada,RS,BR
+4305355,Charqueadas,RS,BR
+4305371,Charrua,RS,BR
+4305405,Chiapetta,RS,BR
+4305447,Chuvisca,RS,BR
+4305439,Chuí,RS,BR
+4305454,Cidreira,RS,BR
+4305504,Ciríaco,RS,BR
+4305587,Colinas,RS,BR
+4305603,Colorado,RS,BR
+4305702,Condor,RS,BR
+4305801,Constantina,RS,BR
+4305835,Coqueiro Baixo,RS,BR
+4305850,Coqueiros do Sul,RS,BR
+4305871,Coronel Barros,RS,BR
+4305900,Coronel Bicaco,RS,BR
+4305934,Coronel Pilar,RS,BR
+4305959,Cotiporã,RS,BR
+4305975,Coxilha,RS,BR
+4306007,Crissiumal,RS,BR
+4306056,Cristal,RS,BR
+4306072,Cristal do Sul,RS,BR
+4306106,Cruz Alta,RS,BR
+4306130,Cruzaltense,RS,BR
+4306205,Cruzeiro do Sul,RS,BR
+4304309,Cândido Godói,RS,BR
+4306304,David Canabarro,RS,BR
+4306320,Derrubadas,RS,BR
+4306353,Dezesseis de Novembro,RS,BR
+4306379,Dilermando de Aguiar,RS,BR
+4306403,Dois Irmãos,RS,BR
+4306429,Dois Irmãos das Missões,RS,BR
+4306452,Dois Lajeados,RS,BR
+4306502,Dom Feliciano,RS,BR
+4306601,Dom Pedrito,RS,BR
+4306551,Dom Pedro de Alcântara,RS,BR
+4306700,Dona Francisca,RS,BR
+4306734,Doutor Maurício Cardoso,RS,BR
+4306759,Doutor Ricardo,RS,BR
+4306767,Eldorado do Sul,RS,BR
+4306809,Encantado,RS,BR
+4306908,Encruzilhada do Sul,RS,BR
+4306924,Engenho Velho,RS,BR
+4306957,Entre Rios do Sul,RS,BR
+4306932,Entre-Ijuís,RS,BR
+4306973,Erebango,RS,BR
+4307005,Erechim,RS,BR
+4307054,Ernestina,RS,BR
+4307203,Erval Grande,RS,BR
+4307302,Erval Seco,RS,BR
+4307401,Esmeralda,RS,BR
+4307450,Esperança do Sul,RS,BR
+4307500,Espumoso,RS,BR
+4307559,Estação,RS,BR
+4307708,Esteio,RS,BR
+4307807,Estrela,RS,BR
+4307815,Estrela Velha,RS,BR
+4307609,Estância Velha,RS,BR
+4307831,Eugênio de Castro,RS,BR
+4307864,Fagundes Varela,RS,BR
+4307906,Farroupilha,RS,BR
+4308003,Faxinal do Soturno,RS,BR
+4308052,Faxinalzinho,RS,BR
+4308078,Fazenda Vilanova,RS,BR
+4308102,Feliz,RS,BR
+4308201,Flores da Cunha,RS,BR
+4308250,Floriano Peixoto,RS,BR
+4308300,Fontoura Xavier,RS,BR
+4308409,Formigueiro,RS,BR
+4308433,Forquetinha,RS,BR
+4308458,Fortaleza dos Valos,RS,BR
+4308508,Frederico Westphalen,RS,BR
+4308607,Garibaldi,RS,BR
+4308656,Garruchos,RS,BR
+4308706,Gaurama,RS,BR
+4308805,General Câmara,RS,BR
+4308854,Gentil,RS,BR
+4308904,Getúlio Vargas,RS,BR
+4309001,Giruá,RS,BR
+4309050,Glorinha,RS,BR
+4309100,Gramado,RS,BR
+4309159,Gramado Xavier,RS,BR
+4309126,Gramado dos Loureiros,RS,BR
+4309209,Gravataí,RS,BR
+4309258,Guabiju,RS,BR
+4309407,Guaporé,RS,BR
+4309506,Guarani das Missões,RS,BR
+4309308,Guaíba,RS,BR
+4309555,Harmonia,RS,BR
+4307104,Herval,RS,BR
+4309571,Herveiras,RS,BR
+4309605,Horizontina,RS,BR
+4309654,Hulha Negra,RS,BR
+4309704,Humaitá,RS,BR
+4309753,Ibarama,RS,BR
+4309803,Ibiaçá,RS,BR
+4309902,Ibiraiaras,RS,BR
+4309951,Ibirapuitã,RS,BR
+4310009,Ibirubá,RS,BR
+4310108,Igrejinha,RS,BR
+4310207,Ijuí,RS,BR
+4310306,Ilópolis,RS,BR
+4310330,Imbé,RS,BR
+4310363,Imigrante,RS,BR
+4310405,Independência,RS,BR
+4310413,Inhacorá,RS,BR
+4310462,Ipiranga do Sul,RS,BR
+4310439,Ipê,RS,BR
+4310504,Iraí,RS,BR
+4310538,Itaara,RS,BR
+4310553,Itacurubi,RS,BR
+4310579,Itapuca,RS,BR
+4310603,Itaqui,RS,BR
+4310652,Itati,RS,BR
+4310702,Itatiba do Sul,RS,BR
+4310751,Ivorá,RS,BR
+4310801,Ivoti,RS,BR
+4310850,Jaboticaba,RS,BR
+4310876,Jacuizinho,RS,BR
+4310900,Jacutinga,RS,BR
+4311106,Jaguari,RS,BR
+4311007,Jaguarão,RS,BR
+4311122,Jaquirana,RS,BR
+4311130,Jari,RS,BR
+4311155,Jóia,RS,BR
+4311205,Júlio de Castilhos,RS,BR
+4311239,Lagoa Bonita do Sul,RS,BR
+4311304,Lagoa Vermelha,RS,BR
+4311270,Lagoa dos Três Cantos,RS,BR
+4311254,Lagoão,RS,BR
+4311403,Lajeado,RS,BR
+4311429,Lajeado do Bugre,RS,BR
+4311502,Lavras do Sul,RS,BR
+4311601,Liberato Salzano,RS,BR
+4311627,Lindolfo Collor,RS,BR
+4311643,Linha Nova,RS,BR
+4311700,Machadinho,RS,BR
+4311734,Mampituba,RS,BR
+4311759,Manoel Viana,RS,BR
+4311775,Maquiné,RS,BR
+4311791,Maratá,RS,BR
+4311809,Marau,RS,BR
+4311908,Marcelino Ramos,RS,BR
+4311981,Mariana Pimentel,RS,BR
+4312005,Mariano Moro,RS,BR
+4312054,Marques de Souza,RS,BR
+4312104,Mata,RS,BR
+4312138,Mato Castelhano,RS,BR
+4312153,Mato Leitão,RS,BR
+4312179,Mato Queimado,RS,BR
+4312203,Maximiliano de Almeida,RS,BR
+4311718,Maçambará,RS,BR
+4312252,Minas do Leão,RS,BR
+4312302,Miraguaí,RS,BR
+4312351,Montauri,RS,BR
+4312377,Monte Alegre dos Campos,RS,BR
+4312385,Monte Belo do Sul,RS,BR
+4312401,Montenegro,RS,BR
+4312427,Mormaço,RS,BR
+4312443,Morrinhos do Sul,RS,BR
+4312450,Morro Redondo,RS,BR
+4312476,Morro Reuter,RS,BR
+4312500,Mostardas,RS,BR
+4312617,Muitos Capões,RS,BR
+4312625,Muliterno,RS,BR
+4312609,Muçum,RS,BR
+4312674,Nicolau Vergueiro,RS,BR
+4312708,Nonoai,RS,BR
+4312757,Nova Alvorada,RS,BR
+4312807,Nova Araçá,RS,BR
+4312906,Nova Bassano,RS,BR
+4312955,Nova Boa Vista,RS,BR
+4313003,Nova Bréscia,RS,BR
+4313011,Nova Candelária,RS,BR
+4313037,Nova Esperança do Sul,RS,BR
+4313060,Nova Hartz,RS,BR
+4313102,Nova Palma,RS,BR
+4313201,Nova Petrópolis,RS,BR
+4313300,Nova Prata,RS,BR
+4313086,Nova Pádua,RS,BR
+4313334,Nova Ramada,RS,BR
+4313359,Nova Roma do Sul,RS,BR
+4313375,Nova Santa Rita,RS,BR
+4313490,Novo Barreiro,RS,BR
+4313391,Novo Cabrais,RS,BR
+4313409,Novo Hamburgo,RS,BR
+4313425,Novo Machado,RS,BR
+4313441,Novo Tiradentes,RS,BR
+4313466,Novo Xingu,RS,BR
+4312658,Não-Me-Toque,RS,BR
+4313508,Osório,RS,BR
+4313607,Paim Filho,RS,BR
+4313656,Palmares do Sul,RS,BR
+4313706,Palmeira das Missões,RS,BR
+4313805,Palmitinho,RS,BR
+4313904,Panambi,RS,BR
+4313953,Pantano Grande,RS,BR
+4314001,Paraí,RS,BR
+4314027,Paraíso do Sul,RS,BR
+4314035,Pareci Novo,RS,BR
+4314050,Parobé,RS,BR
+4314068,Passa Sete,RS,BR
+4314100,Passo Fundo,RS,BR
+4314076,Passo do Sobrado,RS,BR
+4314134,Paulo Bento,RS,BR
+4314159,Paverama,RS,BR
+4314175,Pedras Altas,RS,BR
+4314209,Pedro Osório,RS,BR
+4314308,Pejuçara,RS,BR
+4314407,Pelotas,RS,BR
+4314423,Picada Café,RS,BR
+4314456,Pinhal,RS,BR
+4314472,Pinhal Grande,RS,BR
+4314464,Pinhal da Serra,RS,BR
+4314498,Pinheirinho do Vale,RS,BR
+4314506,Pinheiro Machado,RS,BR
+4314548,Pinto Bandeira,RS,BR
+4314555,Pirapó,RS,BR
+4314605,Piratini,RS,BR
+4314704,Planalto,RS,BR
+4314787,Ponte Preta,RS,BR
+4314779,Pontão,RS,BR
+4314902,Porto Alegre,RS,BR
+4315008,Porto Lucena,RS,BR
+4315057,Porto Mauá,RS,BR
+4315073,Porto Vera Cruz,RS,BR
+4315107,Porto Xavier,RS,BR
+4314803,Portão,RS,BR
+4315131,Pouso Novo,RS,BR
+4314753,Poço das Antas,RS,BR
+4315149,Presidente Lucena,RS,BR
+4315156,Progresso,RS,BR
+4315172,Protásio Alves,RS,BR
+4315206,Putinga,RS,BR
+4315305,Quaraí,RS,BR
+4315313,Quatro Irmãos,RS,BR
+4315321,Quevedos,RS,BR
+4315354,Quinze de Novembro,RS,BR
+4315404,Redentora,RS,BR
+4315453,Relvado,RS,BR
+4315503,Restinga Sêca,RS,BR
+4315602,Rio Grande,RS,BR
+4315701,Rio Pardo,RS,BR
+4315552,Rio dos Índios,RS,BR
+4315750,Riozinho,RS,BR
+4315800,Roca Sales,RS,BR
+4315909,Rodeio Bonito,RS,BR
+4315958,Rolador,RS,BR
+4316006,Rolante,RS,BR
+4316105,Ronda Alta,RS,BR
+4316204,Rondinha,RS,BR
+4316303,Roque Gonzales,RS,BR
+4316402,Rosário do Sul,RS,BR
+4316428,Sagrada Família,RS,BR
+4316436,Saldanha Marinho,RS,BR
+4316451,Salto do Jacuí,RS,BR
+4316477,Salvador das Missões,RS,BR
+4316501,Salvador do Sul,RS,BR
+4316600,Sananduva,RS,BR
+4317103,Sant'Ana do Livramento,RS,BR
+4316709,Santa Bárbara do Sul,RS,BR
+4316733,Santa Cecília do Sul,RS,BR
+4316758,Santa Clara do Sul,RS,BR
+4316808,Santa Cruz do Sul,RS,BR
+4316972,Santa Margarida do Sul,RS,BR
+4316907,Santa Maria,RS,BR
+4316956,Santa Maria do Herval,RS,BR
+4317202,Santa Rosa,RS,BR
+4317251,Santa Tereza,RS,BR
+4317301,Santa Vitória do Palmar,RS,BR
+4317004,Santana da Boa Vista,RS,BR
+4317400,Santiago,RS,BR
+4317608,Santo Antônio da Patrulha,RS,BR
+4317707,Santo Antônio das Missões,RS,BR
+4317558,Santo Antônio do Palma,RS,BR
+4317756,Santo Antônio do Planalto,RS,BR
+4317806,Santo Augusto,RS,BR
+4317905,Santo Cristo,RS,BR
+4317954,Santo Expedito do Sul,RS,BR
+4317509,Santo Ângelo,RS,BR
+4319901,Sapiranga,RS,BR
+4320008,Sapucaia do Sul,RS,BR
+4320107,Sarandi,RS,BR
+4320206,Seberi,RS,BR
+4320230,Sede Nova,RS,BR
+4320263,Segredo,RS,BR
+4320305,Selbach,RS,BR
+4320321,Senador Salgado Filho,RS,BR
+4320354,Sentinela do Sul,RS,BR
+4320404,Serafina Corrêa,RS,BR
+4320503,Sertão,RS,BR
+4320552,Sertão Santana,RS,BR
+4320578,Sete de Setembro,RS,BR
+4320602,Severiano de Almeida,RS,BR
+4320651,Silveira Martins,RS,BR
+4320677,Sinimbu,RS,BR
+4320701,Sobradinho,RS,BR
+4320800,Soledade,RS,BR
+4318002,São Borja,RS,BR
+4318051,São Domingos do Sul,RS,BR
+4318101,São Francisco de Assis,RS,BR
+4318200,São Francisco de Paula,RS,BR
+4318309,São Gabriel,RS,BR
+4318408,São Jerônimo,RS,BR
+4318440,São Jorge,RS,BR
+4318457,São José das Missões,RS,BR
+4318465,São José do Herval,RS,BR
+4318481,São José do Hortêncio,RS,BR
+4318499,São José do Inhacorá,RS,BR
+4318507,São José do Norte,RS,BR
+4318606,São José do Ouro,RS,BR
+4318614,São José do Sul,RS,BR
+4318622,São José dos Ausentes,RS,BR
+4318424,São João da Urtiga,RS,BR
+4318432,São João do Polêsine,RS,BR
+4318705,São Leopoldo,RS,BR
+4318804,São Lourenço do Sul,RS,BR
+4318903,São Luiz Gonzaga,RS,BR
+4319000,São Marcos,RS,BR
+4319109,São Martinho,RS,BR
+4319125,São Martinho da Serra,RS,BR
+4319158,São Miguel das Missões,RS,BR
+4319208,São Nicolau,RS,BR
+4319307,São Paulo das Missões,RS,BR
+4319356,São Pedro da Serra,RS,BR
+4319364,São Pedro das Missões,RS,BR
+4319372,São Pedro do Butiá,RS,BR
+4319406,São Pedro do Sul,RS,BR
+4319505,São Sebastião do Caí,RS,BR
+4319604,São Sepé,RS,BR
+4319703,São Valentim,RS,BR
+4319711,São Valentim do Sul,RS,BR
+4319737,São Valério do Sul,RS,BR
+4319752,São Vendelino,RS,BR
+4319802,São Vicente do Sul,RS,BR
+4320453,Sério,RS,BR
+4320859,Tabaí,RS,BR
+4320909,Tapejara,RS,BR
+4321006,Tapera,RS,BR
+4321105,Tapes,RS,BR
+4321204,Taquara,RS,BR
+4321303,Taquari,RS,BR
+4321329,Taquaruçu do Sul,RS,BR
+4321352,Tavares,RS,BR
+4321402,Tenente Portela,RS,BR
+4321436,Terra de Areia,RS,BR
+4321451,Teutônia,RS,BR
+4321469,Tio Hugo,RS,BR
+4321477,Tiradentes do Sul,RS,BR
+4321493,Toropi,RS,BR
+4321501,Torres,RS,BR
+4321600,Tramandaí,RS,BR
+4321626,Travesseiro,RS,BR
+4321956,Trindade do Sul,RS,BR
+4322004,Triunfo,RS,BR
+4321634,Três Arroios,RS,BR
+4321667,Três Cachoeiras,RS,BR
+4321709,Três Coroas,RS,BR
+4321832,Três Forquilhas,RS,BR
+4321857,Três Palmeiras,RS,BR
+4321907,Três Passos,RS,BR
+4321808,Três de Maio,RS,BR
+4322103,Tucunduva,RS,BR
+4322152,Tunas,RS,BR
+4322186,Tupanci do Sul,RS,BR
+4322202,Tupanciretã,RS,BR
+4322251,Tupandi,RS,BR
+4322301,Tuparendi,RS,BR
+4322327,Turuçu,RS,BR
+4322343,Ubiretama,RS,BR
+4322376,Unistalda,RS,BR
+4322350,União da Serra,RS,BR
+4322400,Uruguaiana,RS,BR
+4322509,Vacaria,RS,BR
+4322541,Vale Real,RS,BR
+4322525,Vale Verde,RS,BR
+4322533,Vale do Sol,RS,BR
+4322558,Vanini,RS,BR
+4322608,Venâncio Aires,RS,BR
+4322707,Vera Cruz,RS,BR
+4322806,Veranópolis,RS,BR
+4322855,Vespasiano Corrêa,RS,BR
+4322905,Viadutos,RS,BR
+4323002,Viamão,RS,BR
+4323101,Vicente Dutra,RS,BR
+4323200,Victor Graeff,RS,BR
+4323309,Vila Flores,RS,BR
+4323358,Vila Lângaro,RS,BR
+4323408,Vila Maria,RS,BR
+4323457,Vila Nova do Sul,RS,BR
+4323507,Vista Alegre,RS,BR
+4323606,Vista Alegre do Prata,RS,BR
+4323705,Vista Gaúcha,RS,BR
+4323754,Vitória das Missões,RS,BR
+4323770,Westfália,RS,BR
+4323804,Xangri-lá,RS,BR
+4300059,Água Santa,RS,BR
+4301552,Áurea,RS,BR
