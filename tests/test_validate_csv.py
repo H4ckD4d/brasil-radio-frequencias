@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.validate_csv import DEFAULT_SCHEMA, load_schema, validate_tree
+from scripts.validate_csv import DEFAULT_MUNICIPALITY_SCHEMA, DEFAULT_SCHEMA, load_schema, validate_tree
 
 
 class ValidatorTests(unittest.TestCase):
@@ -119,6 +119,77 @@ class ValidatorTests(unittest.TestCase):
             row["modulation"] = "digital"
             row["digital_protocol"] = "DMR"
             self.write_rows(root, [row])
+            self.assertEqual(validate_tree(root), [])
+
+
+class MunicipalityValidatorTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.schema = load_schema(DEFAULT_MUNICIPALITY_SCHEMA)
+        cls.columns = cls.schema["x-csv-columns"]
+
+    @staticmethod
+    def valid_row() -> dict[str, str]:
+        return {
+            "codigo_ibge": "3205309",
+            "municipio": "Vitória",
+            "uf": "ES",
+            "pais": "BR",
+        }
+
+    def write_rows(self, directory: Path, rows: list[dict[str, str]]) -> None:
+        path = directory / "municipios.csv"
+        with path.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=self.columns)
+            writer.writeheader()
+            writer.writerows(rows)
+
+    def test_valid_municipality_passes(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.write_rows(root, [self.valid_row()])
+            self.assertEqual(validate_tree(root), [])
+
+    def test_duplicate_ibge_code_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            first = self.valid_row()
+            second = {**self.valid_row(), "municipio": "Vila Velha"}
+            self.write_rows(root, [first, second])
+            messages = [finding.message for finding in validate_tree(root)]
+            self.assertTrue(any("duplicate codigo_ibge" in message for message in messages))
+
+    def test_duplicate_municipality_name_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            first = self.valid_row()
+            second = {**self.valid_row(), "codigo_ibge": "3205200", "municipio": "VITÓRIA"}
+            self.write_rows(root, [first, second])
+            messages = [finding.message for finding in validate_tree(root)]
+            self.assertTrue(any("duplicate municipality name" in message for message in messages))
+
+    def test_invalid_municipality_fields_are_rejected(self) -> None:
+        cases = {
+            "short code": ({**self.valid_row(), "codigo_ibge": "32053"}, "codigo_ibge has invalid format"),
+            "wrong UF": ({**self.valid_row(), "uf": "XX"}, "uf has unsupported value"),
+            "wrong country": ({**self.valid_row(), "pais": "US"}, "pais has unsupported value"),
+            "empty name": ({**self.valid_row(), "municipio": ""}, "municipio is required"),
+            "mismatched prefix": ({**self.valid_row(), "codigo_ibge": "3304557"}, "prefix does not match UF ES"),
+        }
+        for label, (row, expected) in cases.items():
+            with self.subTest(label=label), tempfile.TemporaryDirectory() as temp:
+                root = Path(temp)
+                self.write_rows(root, [row])
+                messages = [finding.message for finding in validate_tree(root)]
+                self.assertTrue(any(expected in message for message in messages), messages)
+
+    def test_municipalities_are_not_treated_as_frequency_records(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            self.write_rows(root, [self.valid_row()])
+            frequency_test = ValidatorTests()
+            frequency_test.columns = load_schema(DEFAULT_SCHEMA)["x-csv-columns"]
+            frequency_test.write_rows(root, [frequency_test.valid_row()])
             self.assertEqual(validate_tree(root), [])
 
 

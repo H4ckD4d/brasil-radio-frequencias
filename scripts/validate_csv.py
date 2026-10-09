@@ -9,6 +9,7 @@ import json
 import math
 import re
 import sys
+import unicodedata
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -18,13 +19,22 @@ from urllib.parse import urlparse
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SCHEMA = REPO_ROOT / "schemas" / "frequency-record.schema.json"
+DEFAULT_MUNICIPALITY_SCHEMA = REPO_ROOT / "schemas" / "municipality.schema.json"
 DEFAULT_DATA_ROOT = REPO_ROOT / "dados"
+MUNICIPALITY_FILENAME = "municipios.csv"
 DATE_FIELDS = (
     "source_publication_date",
     "source_accessed_date",
     "last_independently_verified_date",
 )
 FREQUENCY_FIELDS = ("rx_frequency_mhz", "tx_frequency_mhz")
+IBGE_UF_PREFIXES = {
+    "AC": "12", "AL": "27", "AP": "16", "AM": "13", "BA": "29", "CE": "23",
+    "DF": "53", "ES": "32", "GO": "52", "MA": "21", "MT": "51", "MS": "50",
+    "MG": "31", "PA": "15", "PB": "25", "PR": "41", "PE": "26", "PI": "22",
+    "RJ": "33", "RN": "24", "RS": "43", "RO": "11", "RR": "14", "SC": "42",
+    "SP": "35", "SE": "28", "TO": "17",
+}
 
 
 @dataclass(frozen=True)
@@ -81,7 +91,7 @@ def _property_error(name: str, value: str, definition: dict) -> str | None:
     return None
 
 
-def _validate_cross_fields(row: dict[str, str]) -> list[str]:
+def _validate_frequency_fields(row: dict[str, str]) -> list[str]:
     errors: list[str] = []
 
     for field in DATE_FIELDS:
@@ -164,7 +174,19 @@ def _validate_cross_fields(row: dict[str, str]) -> list[str]:
     return errors
 
 
-def validate_file(path: Path, schema: dict) -> tuple[list[Finding], list[dict[str, str]]]:
+def _validate_municipality_fields(row: dict[str, str]) -> list[str]:
+    errors: list[str] = []
+    expected_prefix = IBGE_UF_PREFIXES.get(row["uf"])
+    if row["pais"] == "BR" and expected_prefix and not row["codigo_ibge"].startswith(expected_prefix):
+        errors.append(f"codigo_ibge prefix does not match UF {row['uf']}")
+    return errors
+
+
+def validate_file(
+    path: Path,
+    schema: dict,
+    record_type: str = "frequency",
+) -> tuple[list[Finding], list[dict[str, str]]]:
     findings: list[Finding] = []
     rows: list[dict[str, str]] = []
     expected = schema["x-csv-columns"]
@@ -206,7 +228,8 @@ def validate_file(path: Path, schema: dict) -> tuple[list[Finding], list[dict[st
                     message = _property_error(field, row[field], definition)
                     if message:
                         findings.append(Finding("ERROR", path, line_number, message))
-                for message in _validate_cross_fields(row):
+                validator = _validate_municipality_fields if record_type == "municipality" else _validate_frequency_fields
+                for message in validator(row):
                     findings.append(Finding("ERROR", path, line_number, message))
     except (OSError, UnicodeError, csv.Error) as exc:
         findings.append(Finding("ERROR", path, None, f"cannot read CSV: {exc}"))
@@ -214,22 +237,32 @@ def validate_file(path: Path, schema: dict) -> tuple[list[Finding], list[dict[st
     return findings, rows
 
 
-def validate_tree(root: Path, schema_path: Path = DEFAULT_SCHEMA) -> list[Finding]:
-    schema = load_schema(schema_path)
+def validate_tree(
+    root: Path,
+    schema_path: Path = DEFAULT_SCHEMA,
+    municipality_schema_path: Path = DEFAULT_MUNICIPALITY_SCHEMA,
+) -> list[Finding]:
+    frequency_schema = load_schema(schema_path)
+    municipality_schema = load_schema(municipality_schema_path)
     findings: list[Finding] = []
-    all_rows: list[tuple[Path, int, dict[str, str]]] = []
+    frequency_rows: list[tuple[Path, int, dict[str, str]]] = []
+    municipality_rows: list[tuple[Path, int, dict[str, str]]] = []
     files = list(iter_csv_files(root))
     if not files:
         return [Finding("ERROR", root, None, "no CSV files found")]
 
     for path in files:
-        file_findings, rows = validate_file(path, schema)
+        is_municipality = path.name.casefold() == MUNICIPALITY_FILENAME
+        schema = municipality_schema if is_municipality else frequency_schema
+        record_type = "municipality" if is_municipality else "frequency"
+        file_findings, rows = validate_file(path, schema, record_type)
         findings.extend(file_findings)
-        all_rows.extend((path, index, row) for index, row in enumerate(rows, start=2))
+        target = municipality_rows if is_municipality else frequency_rows
+        target.extend((path, index, row) for index, row in enumerate(rows, start=2))
 
     ids: dict[str, tuple[Path, int]] = {}
     technical_keys: dict[tuple[str, ...], tuple[Path, int]] = {}
-    for path, line, row in all_rows:
+    for path, line, row in frequency_rows:
         record_id = row["record_id"]
         if record_id in ids:
             first_path, first_line = ids[record_id]
@@ -250,24 +283,64 @@ def validate_tree(root: Path, schema_path: Path = DEFAULT_SCHEMA) -> list[Findin
         else:
             technical_keys[key] = (path, line)
 
+    municipality_codes: dict[str, tuple[Path, int]] = {}
+    municipality_names: dict[tuple[str, str, str], tuple[Path, int]] = {}
+    for path, line, row in municipality_rows:
+        code = row["codigo_ibge"]
+        if code in municipality_codes:
+            first_path, first_line = municipality_codes[code]
+            findings.append(
+                Finding("ERROR", path, line, f"duplicate codigo_ibge; first seen at {first_path}:{first_line}")
+            )
+        else:
+            municipality_codes[code] = (path, line)
+
+        normalized_name = unicodedata.normalize("NFC", row["municipio"]).casefold()
+        name_key = (row["pais"], row["uf"], normalized_name)
+        if name_key in municipality_names:
+            first_path, first_line = municipality_names[name_key]
+            findings.append(
+                Finding("ERROR", path, line, f"duplicate municipality name; first seen at {first_path}:{first_line}")
+            )
+        else:
+            municipality_names[name_key] = (path, line)
+
     return findings
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=DEFAULT_DATA_ROOT, help="directory containing CSV files")
-    parser.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA, help="schema JSON path")
+    parser.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA, help="frequency schema JSON path")
+    parser.add_argument(
+        "--municipality-schema",
+        type=Path,
+        default=DEFAULT_MUNICIPALITY_SCHEMA,
+        help="municipality schema JSON path",
+    )
     args = parser.parse_args(argv)
 
-    findings = validate_tree(args.root.resolve(), args.schema.resolve())
+    findings = validate_tree(
+        args.root.resolve(),
+        args.schema.resolve(),
+        args.municipality_schema.resolve(),
+    )
     for finding in findings:
         print(finding)
     errors = sum(finding.level == "ERROR" for finding in findings)
-    files = len(list(iter_csv_files(args.root.resolve())))
+    files = list(iter_csv_files(args.root.resolve()))
+    municipality_files = sum(path.name.casefold() == MUNICIPALITY_FILENAME for path in files)
+    frequency_files = len(files) - municipality_files
     if errors:
-        print(f"Validation failed: {errors} error(s) across {files} CSV file(s).")
+        print(
+            f"Validation failed: {errors} error(s) across {frequency_files} frequency CSV file(s) "
+            f"and {municipality_files} municipality CSV file(s)."
+        )
         return 1
-    print(f"Validation passed: {files} CSV file(s), no errors.")
+    print(
+        f"Validation passed: {frequency_files} frequency CSV file(s) and "
+        f"{municipality_files} municipality CSV file(s), no errors."
+    )
     return 0
 
 
