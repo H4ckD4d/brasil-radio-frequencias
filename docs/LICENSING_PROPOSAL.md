@@ -1,38 +1,67 @@
-# Licensing Proposal — Maintainer Approval Required
+# Proposta de licenciamento — aprovação pendente
 
-No license is currently granted for this repository. This document is a proposal, not a license notice, and does not change copyright ownership or third-party terms.
+> **RadioSync — Brasil Radio Frequências**  
+> **Do sinal à informação. Do Brasil para o mundo.**  
+> Idealizado e mantido por **[h4ckd4d](https://github.com/H4ckD4d)**.
 
-## Recommended separation
+**Atenção: este documento é apenas uma proposta. Nenhuma licença geral foi adotada para o repositório até o momento.** A existência de arquivos públicos no GitHub não altera direitos autorais nem concede, por si só, permissão para copiar ou redistribuir bases de terceiros.
 
-### Software: Apache License 2.0
+## Por que considerar licenças separadas?
 
-Use Apache-2.0 for Python code, schemas, workflows, and software documentation authored for RadioSync. It is permissive, requires preservation of notices, and includes an express patent grant that is useful for an international tooling project.
+O RadioSync reúne tipos de conteúdo diferentes:
 
-Alternative: MIT is shorter and widely understood but does not provide the same express patent language.
+- **Software:** validadores, scripts Python, schemas e mecanismos de importação/exportação.
+- **Dados:** seleção e organização de registros geográficos e técnicos, observada a procedência.
+- **Fontes externas:** documentos e dados originalmente publicados por terceiros.
 
-### Project-authored data: CC BY 4.0
+Uma licença para o código **não autoriza automaticamente** a reutilização de informações de outras organizações.
 
-Use CC BY 4.0 only for original database selection/arrangement and records that contributors have the right to license. It supports sharing and adaptation while requiring attribution and addresses database rights in jurisdictions where they apply.
+## Alternativa recomendada para o software: Apache License 2.0
 
-CC0 would maximize reuse but is not the preferred initial recommendation because RadioSync explicitly values durable source and contributor attribution. ODbL could enforce share-alike database terms but creates additional compatibility and operational complexity.
+A licença **Apache-2.0** é uma opção permissiva para código Python, schemas, fluxos de automação e documentação de software originalmente produzidos para o RadioSync. Requer preservação de avisos e inclui concessão expressa de patentes, atributo útil em projetos internacionais.
 
-## Exclusions
+**Alternativa:** MIT, mais curta e difundida, porém sem a mesma cláusula expressa de patentes.
 
-A future project data license must not relicense:
+A escolha depende de aprovação do mantenedor e da incorporação dos arquivos de licença correspondentes.
 
-- RadioReference content.
-- Third-party records marked `restricted` or `review_required`.
-- Personal information or content submitted without authority.
-- Source documents merely linked from a record.
-- Any dataset whose license requires different terms.
+## Alternativa recomendada para dados próprios: CC BY 4.0
 
-Per-record source permissions override project defaults. Restricted records should ultimately be removed from distributable branches or replaced with independently sourced, lawfully reusable facts before a public release.
+A licença **Creative Commons Atribuição 4.0 (CC BY 4.0)** pode ser adequada à seleção e organização original da base e aos registros que os respectivos titulares tenham direito de licenciar.
 
-## Decision checklist
+Ela permite compartilhamento e adaptação mediante atribuição, respeitando também os direitos sobre bases de dados quando aplicáveis.
 
-- Confirm the copyright holder name to place in software notices.
-- Decide whether contributor code is accepted under Apache-2.0.
-- Decide whether eligible project-authored data is CC BY 4.0, CC0, or ODbL.
-- Define how pre-license contributions will be approved for relicensing.
-- Audit every existing row before labeling a public data release.
-- Add actual license files only after the maintainer records the decision.
+Outras possibilidades:
+
+- **CC0:** maximiza a reutilização, mas não estabelece a mesma obrigação de atribuição.
+- **ODbL:** utiliza regras de compartilhamento pela mesma licença, com maior complexidade de compatibilidade e operação.
+
+Nenhuma dessas opções deve ser aplicada indiscriminadamente a conteúdo de terceiros.
+
+## Conteúdos excluídos de qualquer licença geral futura
+
+O RadioSync não pode relicenciar, sem direitos ou autorização adequada:
+
+- Conteúdo proveniente do RadioReference.
+- Registros classificados como `restricted` ou `review_required`.
+- Dados pessoais ou material encaminhado sem legitimidade.
+- Documentos externos apenas citados ou vinculados.
+- Bases cuja licença imponha condições diferentes.
+
+Os direitos aplicáveis à fonte de cada registro devem ser respeitados, mesmo que uma licença geral para os dados originais do projeto venha a ser adotada.
+
+Registros restritos deverão ser excluídos de distribuições públicas ou substituídos por informações obtidas de forma independente e legalmente reutilizável, antes de qualquer lançamento público de dados com licença abrangente.
+
+## Decisões ainda necessárias
+
+1. Confirmar o nome do titular de direitos a constar nos avisos de software.
+2. Aprovar ou rejeitar a opção Apache-2.0.
+3. Escolher a licença apropriada para os dados de autoria própria e suas condições.
+4. Definir como obter consentimento para relicenciamento de contribuições anteriores.
+5. Auditar a situação de direitos de todos os registros existentes.
+6. Publicar os arquivos `LICENSE` correspondentes somente após decisão formal do mantenedor.
+
+Para conhecer as restrições práticas de coleta e publicação, consulte [Fontes e política de redistribuição](DATA_SOURCES.md).
+
+---
+
+**RadioSync · Brasil Radio Frequências · h4ckd4d**
