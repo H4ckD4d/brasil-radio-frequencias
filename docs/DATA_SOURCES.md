@@ -1,75 +1,95 @@
-# Data Sources and Redistribution Policy
+# Fontes e política de redistribuição — RadioSync
 
-## Core rule
+> **Do sinal à informação. Do Brasil para o mundo.**  
+> Política de procedência do **RadioSync — Brasil Radio Frequências**, iniciativa de **[h4ckd4d](https://github.com/H4ckD4d)**.
 
-RadioSync records facts together with their provenance. A source being visible on the web does not establish permission to republish its database content. Every row carries a `redistribution_permission` value, and restricted material must never enter generated public exports.
+## Por que registrar as fontes?
 
-## Source classes
+Uma informação técnica só é realmente útil quando podemos responder **quem publicou, quando, sobre qual região, em que contexto e com que autorização de uso**.
 
-| Class | Meaning | Independent operational proof? |
-|---|---|---:|
-| `official_documentation` | Regulator or competent authority publication | No |
-| `operator_report` | Statement by the responsible operator | No |
-| `community_submission` | Contributor report with supporting evidence | No |
-| `secondary_compilation` | Third-party list or directory | No |
-| `independent_reception` | Dated direct observation with a method | Yes, within its stated scope |
-| `unknown` | Source type still under review | No |
+No RadioSync, cada registro técnico deve preservar sua procedência. **Estar visível na internet não equivale a estar liberado para cópia ou redistribuição.**
 
-Official authorization, allocation, or registration does not prove that a transmitter is active. Conversely, reception does not prove that a station is lawfully authorized.
+O campo `redistribution_permission` orienta os exportadores: registros restritos ou pendentes de análise não podem ser incluídos em exportações públicas por padrão.
 
-## Current source register
+## Classes de fontes
 
-### IBGE geographic identifiers
+| Valor de `source_type` | O que significa | Comprova operação atual? |
+|---|---|---|
+| `official_documentation` | Documento de órgão regulador ou autoridade competente. | **Não** |
+| `operator_report` | Informação fornecida pelo responsável pela estação ou sistema. | **Não, isoladamente** |
+| `community_submission` | Contribuição comunitária acompanhada de evidências. | **Não, isoladamente** |
+| `secondary_compilation` | Lista compilada a partir de terceiros. | **Não** |
+| `independent_reception` | Observação direta documentada, com data e método. | **Sim, apenas no limite observado** |
+| `unknown` | Origem ainda sob análise. | **Não** |
 
-- Organization: Instituto Brasileiro de Geografia e Estatística (IBGE).
-- Use: official country subdivision and Brazilian municipality identifiers.
-- Reference: https://www.ibge.gov.br/explica/codigos-dos-municipios.php
-- Treatment: cite IBGE and retain the retrieved identifier. Geographic metadata is not an operational-frequency source.
+**Autorização e atividade são coisas diferentes:** um documento regulatório não prova que um transmissor esteja no ar; a recepção de um sinal também não prova que sua operação esteja autorizada.
 
-### Anatel Ato nº 883/2024
+## Cadastro de fontes atualmente referenciadas
 
-- Organization: Agência Nacional de Telecomunicações (Anatel).
-- Use: Brazilian maritime VHF channel documentation.
-- Reference: https://informacoes.anatel.gov.br/legislacao/atos-de-requisitos-tecnicos-de-gestao-do-espectro/2024/1918-ato-883
-- Treatment: source attribution is required. Records describe nationally regulated channels and do not assert local activity.
-- Update note: Ato nº 5018/2026 amended the requirements. Future reviews must compare affected fields before updating records.
+### 1. IBGE — base geográfica brasileira
 
-### DECEA AISWEB NOTAM E6356/26
+- **Órgão:** Instituto Brasileiro de Geografia e Estatística (IBGE).
+- **Finalidade:** identificação territorial e códigos oficiais de estados e municípios.
+- **Referência:** https://www.ibge.gov.br/explica/codigos-dos-municipios.php
+- **API de localidades:** https://servicodados.ibge.gov.br/api/v1/localidades/
+- **Aplicação no RadioSync:** índices territoriais das 27 unidades federativas.
+- **Limitação:** códigos e nomes municipais **não constituem evidência de frequências ativas**.
 
-- Organization: Departamento de Controle do Espaço Aéreo (DECEA).
-- Use: time-limited aviation coordination frequencies and context.
-- Reference: https://aisweb.decea.mil.br/?i=notam&notam_id=12974142&view=single
-- Treatment: official documentation, not an independently verified reception. Redistribution terms require review, so current rows are not marked redistributable.
-- Validity note: the current records describe the validity window in `notes`; they must not be generalized into permanent aerodrome channels.
+A abrangência nacional da geografia foi implantada em outubro de 2026. O catálogo técnico continua em expansão progressiva.
 
-### “Levantamento ES 2025” on Scribd
+### 2. Anatel — Ato nº 883/2024
 
-- Displayed uploader: Cleverson PU1CAC.
-- Use: secondary repeater compilation dated 2025-02-18.
-- Reference: https://pt.scribd.com/document/838374672/Repetidoras-ES-e-Mantenedores-18022025
-- Treatment: `restricted`. The displayed page states “All Rights Reserved.” The retained local records are source-only claims, not independent confirmations, and must not be included in redistributable exports unless permission or an independently sourced factual basis is documented.
+- **Órgão:** Agência Nacional de Telecomunicações (Anatel).
+- **Finalidade no conjunto inicial:** documentação técnica de canais VHF marítimos.
+- **Referência:** https://informacoes.anatel.gov.br/legislacao/atos-de-requisitos-tecnicos-de-gestao-do-espectro/2024/1918-ato-883
+- **Tratamento:** manter atribuição ao órgão e distinguir regras nacionais de atividade efetiva em uma localidade.
+- **Atualização indicada no histórico do projeto:** o Ato nº 5018/2026 alterou requisitos; revisões futuras precisam comparar os dispositivos e campos afetados antes de modificar registros.
 
-### RepeaterBook references
+### 3. DECEA — AISWEB NOTAM E6356/26
 
-Some legacy notes state that a station is also listed in RepeaterBook. No RepeaterBook record has been imported, no RepeaterBook URL is currently cited, and those notes are not independent verification. Do not scrape or import this source without reviewing its current terms and obtaining any required permission.
+- **Órgão:** Departamento de Controle do Espaço Aéreo (DECEA).
+- **Finalidade no conjunto inicial:** referências de comunicação aeronáutica com validade temporal específica.
+- **Referência:** https://aisweb.decea.mil.br/?i=notam&notam_id=12974142&view=single
+- **Tratamento:** documentação oficial, **não** observação independente de recepção.
+- **Limites:** os registros mantêm a janela de validade em `notes` e não podem ser interpretados como canais permanentes de aeródromo. Termos de redistribuição permanecem sujeitos a revisão.
 
-## RadioReference
+### 4. Levantamento de repetidoras do Espírito Santo (2025)
 
-RadioReference content is outside the public dataset. Its SOAP service is intended here only for future authorized personal radio-programming workflows in which each user supplies their own credentials and satisfies the service's subscription requirements.
+- **Publicação:** levantamento datado de 18/02/2025, exibido no Scribd.
+- **Publicador exibido:** Cleverson PU1CAC.
+- **Referência:** https://pt.scribd.com/document/838374672/Repetidoras-ES-e-Mantenedores-18022025
+- **Tratamento:** compilação secundária, classificada como `restricted` no histórico de dados; a página apresenta a indicação *All Rights Reserved*.
+- **Limitação:** registros classificados como `source_only` reproduzem uma afirmação documental, não uma operação comprovada em campo. Não devem entrar em exportações redistribuíveis sem permissão ou fundamento factual independente e legalmente reutilizável.
 
-- API information: https://support.radioreference.com/hc/en-us/articles/18844460198932-Database-Web-Service-API
-- Terms: https://www.radioreference.com/terms/
-- WSDL: https://api.radioreference.com/soap2/?wsdl&v=latest
+### 5. RepeaterBook — referências históricas
 
-Never commit credentials, SOAP responses, caches, or RadioReference database content. Do not transform licensed responses into public CSV data. Any broader caching, redistribution, directory, dashboard, or commercial use requires explicit permission covering that use.
+Algumas observações legadas mencionam o RepeaterBook, mas **não houve importação de registros dessa plataforma** e não há URL de registro específico atualmente utilizada como verificação independente.
 
-## Adding a source
+Qualquer integração futura deverá avaliar os termos vigentes e obter as permissões necessárias. Não faça coleta ou importação automatizada sem essa análise.
 
-Before importing records:
+## Integração RadioReference: separação obrigatória
 
-1. Record the publisher, canonical URL, publication date, and access date.
-2. Save the applicable license or terms reference.
-3. Determine whether extraction and redistribution are permitted.
-4. Document transformations and field mapping.
-5. Assign the most conservative permission when terms are unclear: `review_required`.
-6. Keep raw restricted content outside Git and outside public exports.
+O RadioSync mantém uma fronteira técnica entre seu **repositório público** e uma eventual integração **privada**, por usuário, para programação pessoal de equipamentos, sujeita a autorização e aos termos do serviço.
+
+- [Informações sobre a API](https://support.radioreference.com/hc/en-us/articles/18844460198932-Database-Web-Service-API)
+- [Termos do RadioReference](https://www.radioreference.com/terms/)
+- [Referência WSDL](https://api.radioreference.com/soap2/?wsdl&v=latest)
+
+**Nunca inclua no Git:** credenciais, respostas autenticadas da API, caches ou material licenciado do RadioReference. Dados derivados dessa integração não devem ser incorporados aos CSVs públicos sem permissão expressa de redistribuição.
+
+## Checklist antes de importar uma nova fonte
+
+1. Identifique órgão, autor ou responsável pela publicação.
+2. Registre URL canônica, data de publicação e data de consulta.
+3. Consulte e documente os termos de licença e redistribuição.
+4. Verifique se a extração e a republicação são permitidas.
+5. Descreva como os campos foram interpretados ou transformados.
+6. Valide dados, identificadores e possíveis duplicidades.
+7. Se a situação dos direitos não estiver esclarecida, use `review_required`.
+8. Mantenha materiais brutos restritos fora do Git e de exportações públicas.
+
+Leia também o [formato dos dados](DATA_FORMAT.md), [como contribuir](../CONTRIBUTING.md) e a [proposta de licenciamento](LICENSING_PROPOSAL.md).
+
+---
+
+**RadioSync · Brasil Radio Frequências · h4ckd4d**
