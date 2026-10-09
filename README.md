@@ -1,102 +1,169 @@
 # RadioSync — Brasil Radio Frequências
 
-RadioSync is an international, community-driven open-source project for documenting radio-frequency information and producing safe, traceable inputs for radio programming tools. The initial dataset covers Espírito Santo, Brazil, and is designed to expand across Brazil and other countries.
+> **Do sinal à informação. Do Brasil para o mundo.**  
+> Uma iniciativa de **[h4ckd4d](https://github.com/H4ckD4d)** para organizar, documentar e tornar mais acessível o conhecimento sobre radiocomunicação.
 
-> A listed frequency is not proof that a station is currently operating. Every record must preserve its source, verification state, and redistribution status.
+**RadioSync** é um projeto colaborativo de documentação técnica e organização geográfica de radiofrequências. Sua missão é reunir informações de fontes identificadas, com critérios verificáveis, para apoiar estudantes, radioamadores, técnicos, pesquisadores e entusiastas.
 
-## Visão geral em português
+**Cobertura geográfica nacional implantada; catálogo de frequências em expansão.** A presença de um município na estrutura do projeto **não significa** que suas frequências já tenham sido cadastradas.
 
-O RadioSync organiza informações de radiofrequência por país, estado ou província, município e serviço de comunicação. A base inicial cobre o Espírito Santo e poderá crescer para outras regiões.
+[Conheça o projeto](#por-que-o-radiosync-existe) · [Consulte os dados](#como-explorar-o-repositório) · [Contribua](CONTRIBUTING.md) · [Fontes](docs/DATA_SOURCES.md) · [Formato técnico](docs/DATA_FORMAT.md)
 
-Os dados distinguem documentação oficial, relatos comunitários e recepções verificadas de forma independente. Uma frequência publicada não deve ser tratada automaticamente como ativa. Contribuições precisam apresentar fonte confiável, respeitar a legislação, a privacidade e as licenças dos dados.
+---
 
-Consulte [como contribuir](CONTRIBUTING.md), o [formato dos dados](docs/DATA_FORMAT.md) e as [fontes cadastradas](docs/DATA_SOURCES.md).
+## Por que o RadioSync existe?
 
-## Scope
+Imagine procurar a frequência de uma repetidora, consultar um canal marítimo ou entender a diferença entre uma comunicação analógica e uma digital. Muitas vezes, as informações estão espalhadas por documentos técnicos, listas desatualizadas, publicações oficiais e contribuições comunitárias.
 
-RadioSync is intended to support:
+A proposta do **RadioSync** é aproximar esses universos: **organizar dados, explicar o contexto e mostrar a origem de cada informação**.
 
-- Amateur radio repeaters and simplex channels.
-- Aviation and maritime reference channels.
-- Analog and digital radio systems.
-- SDR research and documented reception reports.
-- Radio programming exports for compatible tools and equipment.
-- Auditable geographic and source metadata.
+O projeto começou com um conjunto técnico inicial no **Espírito Santo**. Em seguida, sua estrutura geográfica foi ampliada com dados do **Instituto Brasileiro de Geografia e Estatística (IBGE)**, preparando o caminho para a catalogação progressiva dos serviços de radiocomunicação em todo o território brasileiro.
 
-The project does not authorize transmission, replace official publications, guarantee operational status, or grant rights to restricted third-party data.
+O objetivo não é apenas criar uma lista de frequências. É construir uma base em que seja possível saber **de onde veio um registro, quando foi consultado, que uso descreve e o que realmente foi verificado**.
 
-## Data trust model
+## Panorama atual
 
-Each record identifies one source class:
+| Indicador | Situação |
+|---|---|
+| Cobertura geográfica | **27 unidades federativas** |
+| Índices geográficos do IBGE | **5.571 registros territoriais** |
+| Composição territorial | **5.570 municípios e 1 registro correspondente ao DF** |
+| Índices municipais | **27 arquivos `municipios.csv`** |
+| Base técnica inicial | **Espírito Santo** |
+| Arquivos CSV de frequências | **7** |
+| Registros técnicos iniciais | **15** — radioamadorismo, aviação e serviço marítimo |
+| Validação local da expansão | **27 índices + 7 CSVs de frequência sem erros; 16 testes aprovados** |
+| Situação do projeto | **Em desenvolvimento contínuo** |
 
-- **Official documentation** — published by a regulator or other competent authority.
-- **Operator report** — supplied by the responsible station or system operator.
-- **Community submission** — supplied by a contributor with supporting evidence.
-- **Secondary compilation** — transcribed from a third-party list and not independently confirmed.
-- **Independent reception** — locally received and documented with a date and verification method.
+*Os números refletem a etapa de expansão nacional concluída em outubro de 2026. Os índices territoriais não equivalem a uma cobertura nacional de canais ou estações ativas.*
 
-Operational state is separate from regulatory or documentary state. Values such as `reported_active` only repeat a source's claim. Only a dated independent verification may use a `verified_*` state.
+## O que é possível encontrar aqui?
 
-## Repository layout
+| Área | Explicação acessível |
+|---|---|
+| **Radioamadorismo** | Referências a repetidoras, indicativos e canais de radioamadores, quando documentados. |
+| **Aviação** | Informações públicas sobre comunicações aeronáuticas e seus contextos de uso. |
+| **Comunicação marítima** | Referências a canais VHF marítimos e serviços associados. |
+| **Rádio analógico e digital** | Campos preparados para FM, DMR e outros protocolos documentados. |
+| **SDR e pesquisa técnica** | Dados organizados para estudos de recepção e análise de sinais. |
+| **Geografia** | Municípios e códigos oficiais do IBGE para localizar corretamente as referências. |
+| **Ferramentas futuras** | Pesquisa, filtros e exportação para softwares e equipamentos compatíveis, quando implementadas. |
+
+**Para quem está começando:** uma *frequência* é uma referência dentro do espectro de rádio; uma *repetidora* pode retransmitir sinais de estações autorizadas; *SDR* é o uso de software para processar sinais de rádio; *DMR* é um padrão digital de radiocomunicação. Esses termos não significam, por si só, autorização para transmitir.
+
+## A diferença entre informação publicada e sinal ativo
+
+Uma frequência aparecer em uma lista **não comprova** que a estação esteja operando neste momento.
+
+Por isso, o RadioSync separa:
+
+1. **Fonte e procedência:** publicação oficial, informação do operador, contribuição comunitária, compilação secundária ou observação independente.
+2. **Verificação:** existência de documentação não deve ser confundida com uma recepção comprovada.
+3. **Situação operacional:** uma fonte pode relatar uma estação como ativa ou inativa, mas isso não equivale a uma verificação atual.
+4. **Direitos de uso dos dados:** conteúdo disponível na internet não é automaticamente autorizado para redistribuição.
+
+Datas, parâmetros de rádio ou posições geográficas desconhecidos devem permanecer em branco — nunca serão preenchidos por suposição.
+
+Saiba mais em [Fontes, procedência e redistribuição](docs/DATA_SOURCES.md).
+
+## Como explorar o repositório
+
+A pasta `dados/` está organizada por **UF** e, dentro dela, por municípios identificados por um nome simplificado (*slug*).
 
 ```text
-dados/                                  Canonical CSV datasets
-schemas/frequency-record.schema.json    Machine-readable record schema
-scripts/validate_csv.py                 Dependency-free CSV validator
-tests/                                  Validator tests
-docs/                                   Data and project documentation
-radiosync/integrations/radioreference/  Disabled integration boundary
-exports/                                Generated radio/SDR output targets
-.github/                                Contribution templates and CI
+brasil-radio-frequencias/
+├── dados/
+│   ├── AC/
+│   │   ├── municipios.csv
+│   │   └── rio-branco/
+│   ├── DF/
+│   │   ├── municipios.csv
+│   │   └── brasilia/
+│   ├── ES/
+│   │   ├── municipios.csv
+│   │   └── ...                # referências técnicas iniciais
+│   └── ...                   # demais unidades federativas
+├── schemas/                 # regras de validação dos dados
+├── scripts/                 # ferramentas Python
+├── tests/                   # testes automatizados
+├── docs/                    # documentação e fontes
+├── radiosync/               # componentes e integrações controladas
+├── exports/                 # destinos de futuras exportações
+└── .github/                 # colaboração e automação
 ```
 
-CSV exports are generated artifacts and must not become the source of truth.
+**Comece por aqui:**
 
-## Validate the data
+- `dados/UF/municipios.csv`: relação territorial da unidade federativa, com código IBGE, município, UF e país.
+- `dados/UF/<municipio>/`: espaço destinado às referências técnicas locais, quando disponíveis.
+- [Formato dos registros](docs/DATA_FORMAT.md): significado dos campos de frequências e exemplos.
+- [Como contribuir](CONTRIBUTING.md): procedimento para propor correções ou incluir novas informações.
 
-Python 3.11 or newer is recommended. The validator uses only the standard library.
+O Distrito Federal possui tratamento administrativo próprio; não é dividido em municípios como os estados brasileiros. Localidades, bairros e distritos também não devem ser cadastrados como municípios independentes.
 
-```bash
-python scripts/validate_csv.py
+## Como validar os dados
+
+É possível conferir a consistência dos arquivos com **Python 3.11 ou superior**, utilizando ferramentas da biblioteca padrão.
+
+```powershell
+python .\scripts\validate_csv.py
 python -m unittest discover -s tests -v
 ```
 
-Validation checks canonical headers, required fields, frequency formatting, geographic identifiers, URLs, dates, verification claims, redistribution metadata, and duplicate records.
+A sincronização geográfica com o IBGE também possui um modo de conferência antes de alterar arquivos:
 
-## Join the Project / Contribute
+```powershell
+python .\scripts\sync_ibge_municipios.py
+```
 
-RadioSync welcomes:
+Para criar apenas os índices ainda ausentes:
 
-- Amateur radio operators.
-- Radio-frequency researchers.
-- Radio communication technicians.
-- SDR enthusiasts.
-- Software developers.
-- Radio equipment programmers.
-- People who can verify information locally.
+```powershell
+python .\scripts\sync_ibge_municipios.py --apply
+```
 
-You can contribute verified frequencies, report outdated records, suggest corrections, add geographic coverage, improve documentation, write validators or exporters, and submit Pull Requests.
+O gerador preserva os arquivos municipais que já existem. Antes de executar sincronizações, contribuições ou exportações, verifique as alterações no Git e mantenha cópias de segurança quando necessário.
 
-Every data contribution must include a reliable source and a clear redistribution status. Local reception reports must include a date and verification method. Do not submit private user information, credentials, confidential systems data, or third-party database content that cannot be redistributed.
+## Caminho de evolução
 
-Start with [CONTRIBUTING.md](CONTRIBUTING.md) or open one of the repository's structured Issue forms.
+| Etapa | Situação |
+|---|---|
+| Estrutura inicial, schemas e validação | **Concluída** |
+| Catálogo técnico inicial do Espírito Santo | **Iniciado** |
+| Cobertura geográfica das 27 UFs via IBGE | **Concluída** |
+| Importadores de fontes públicas e critérios de licenciamento | **Planejado / em evolução** |
+| Ampliação do catálogo técnico por região | **Em expansão** |
+| Pesquisa pública e visualização cartográfica | **Planejado** |
+| Exportadores para softwares de programação de rádio | **Planejado** |
+| Internacionalização da arquitetura | **Visão futura** |
 
-## RadioReference boundary
+O avanço será gradual: **qualidade, verificabilidade e direitos de publicação têm prioridade sobre quantidade de registros**.
 
-RadioReference support is reserved for future authorized, per-user personal radio-programming workflows. Credentials, API responses, caches, and licensed database content must never be committed. RadioReference-derived content must not be merged into the public dataset without explicit redistribution permission. See [DATA_SOURCES.md](docs/DATA_SOURCES.md).
+## Construído com a comunidade
 
-## Licensing status
+Você não precisa ser especialista para participar. É possível ajudar corrigindo nomes, relatando links quebrados, explicando termos técnicos, encontrando documentos públicos ou contribuindo com software.
 
-No project license has been adopted yet. A separated software/data recommendation is documented in [LICENSING_PROPOSAL.md](docs/LICENSING_PROPOSAL.md). Until the maintainer approves and adds licenses, do not assume that repository content is licensed for reuse.
+Se desejar enviar dados de radiofrequência, inclua uma **fonte identificável**, o contexto do registro e a situação da permissão de redistribuição. Relatos de recepção independente precisam de data e método de observação.
 
-Individual source permissions recorded in CSV rows still apply and can be more restrictive than any future project-wide data license.
+Leia o [Guia de contribuição](CONTRIBUTING.md), o [Código de Conduta](CODE_OF_CONDUCT.md) e a [Política de Segurança](SECURITY.md).
 
-## Safety and legal notice
+## Responsabilidade e licenciamento
 
-Use this project for lawful receiving, research, documentation, and authorized radio programming. Users are responsible for applicable spectrum rules, equipment authorization, privacy requirements, and local law. Never infer permission to transmit from the presence of a frequency.
+- O RadioSync é uma **iniciativa comunitária independente**, não um cadastro oficial da Anatel ou de outro órgão governamental.
+- Frequências documentadas **não representam permissão para transmitir**. Observe a regulamentação, a licença e a homologação aplicáveis.
+- O projeto não deve divulgar credenciais, conteúdo de comunicações privadas protegidas ou dados restritos de terceiros.
+- Informações de fontes como RadioReference não podem ser incorporadas à base pública sem autorização de redistribuição adequada.
+- **A licença geral do repositório ainda não foi adotada.** Uma [proposta de licenciamento](docs/LICENSING_PROPOSAL.md) está em análise; não presuma autorização para reutilizar todo o conteúdo apenas porque o repositório é público.
 
-## Creator and maintainer
+## Criador e identidade do projeto
 
-**Created by [h4ckd4d](https://github.com/H4ckD4d)** — project creator and maintainer.
+**RadioSync — Brasil Radio Frequências** é uma iniciativa idealizada, criada e mantida por **[h4ckd4d](https://github.com/H4ckD4d)**.
 
-Original project attribution must be preserved. Contributors retain credit for their own work through Git history, Pull Requests, source attribution, and [AUTHORS.md](AUTHORS.md); contribution does not transfer authorship of unrelated work.
+> **Do sinal à informação. Do Brasil para o mundo.**
+
+Contribuidores recebem o devido reconhecimento por suas contribuições, assim como autores e organizações responsáveis pelas fontes consultadas. Conheça a seção de [Autoria e colaboradores](AUTHORS.md).
+
+---
+
+**RadioSync · Brasil Radio Frequências · h4ckd4d**  
+*Conhecimento técnico com origem identificada, linguagem acessível e compromisso com a informação responsável.*
