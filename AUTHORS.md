@@ -1,15 +1,36 @@
-# Authors and Contributors
+# Autoria e colaboradores — RadioSync
 
-## Original creator and maintainer
+> **RadioSync — Brasil Radio Frequências**  
+> **Do sinal à informação. Do Brasil para o mundo.**
 
-- **h4ckd4d** — creator and project maintainer — [GitHub](https://github.com/H4ckD4d)
+## Idealização, criação e manutenção
 
-RadioSync originated as the `brasil-radio-frequencias` repository. Preserve this attribution in forks and derivative documentation.
+**[h4ckd4d](https://github.com/H4ckD4d)** — idealizador, criador e mantenedor do projeto RadioSync.
 
-## Contributors
+O RadioSync teve origem no repositório **`brasil-radio-frequencias`**, com o propósito de documentar informações técnicas de radiocomunicação de maneira organizada, rastreável e acessível, começando pelo Espírito Santo e estruturando sua cobertura geográfica para todo o Brasil.
 
-Individual contributors are recognized through Git commit authorship, Pull Request history, release notes, and this file when they request or merit a durable project-level credit.
+Esta identificação de origem deve ser preservada nos créditos e na documentação derivada, respeitadas as licenças e os direitos aplicáveis.
 
-Dataset records must separately credit their underlying source in the `attribution` field. Repository contribution does not imply authorship or ownership of a cited third-party dataset, and project maintainership does not transfer ownership of a contributor's original work.
+## Comunidade e colaboradores
 
-To request a correction to this file, open a documentation Pull Request with the relevant contribution links.
+O conhecimento compartilhado faz o RadioSync evoluir. Pessoas que corrigem dados, documentam fontes, desenvolvem ferramentas, revisam códigos ou ampliam a acessibilidade do material merecem reconhecimento adequado.
+
+Os créditos são mantidos, conforme aplicável, por meio de:
+
+- Autoria registrada no histórico de commits do Git;
+- Pull Requests e revisões associados;
+- Notas de versões e documentos de contribuição;
+- Este arquivo, quando houver contribuição relevante ou solicitação justificada.
+
+## Créditos das fontes de dados
+
+O campo `attribution` dos registros deve creditar **a fonte original e seus autores ou organizações**, quando necessário.
+
+A inclusão de dados no repositório não torna o mantenedor autor de material publicado por terceiros. Da mesma forma, participar do projeto não transfere a autoria de contribuições próprias nem de trabalhos não relacionados.
+
+Para solicitar inclusão ou correção de crédito, abra um Pull Request de documentação com o contexto e os links da contribuição.
+
+---
+
+**Idealizado e mantido por h4ckd4d.**  
+*RadioSync — Do sinal à informação. Do Brasil para o mundo.*
