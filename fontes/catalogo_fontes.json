@@ -1,0 +1,27 @@
+{
+  "criador": "h4ckd4d",
+  "versao": "0.1.0",
+  "fontes": [
+    {
+      "categoria": "estacoes_licenciadas",
+      "licenca": "review_required",
+      "cobertura": "nacional",
+      "id": "anatel_spectrum_e",
+      "nome": "Anatel - Spectrum-E Emissoes",
+      "observacao": "Verificar formato de exportacao, direitos e dados pessoais antes de importar.",
+      "importacao_automatica": false,
+      "url": "https://sistemas.anatel.gov.br/se/public/view/b/licenciamento.php?view=licenciamento"
+    },
+    {
+      "categoria": "atribuicao_de_faixas",
+      "licenca": "review_required",
+      "cobertura": "nacional",
+      "id": "anatel_pdff",
+      "nome": "Anatel - Plano de Atribuicao e Destinacao de Faixas",
+      "observacao": "Dados regulatorios de faixas. Nao converter em canais municipais.",
+      "importacao_automatica": false,
+      "url": "https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-divulga-nova-base-de-dados-no-portal-brasileiro-de-dados-abertos"
+    }
+  ],
+  "projeto": "RadioSync - Brasil Radio Frequencias"
+}
